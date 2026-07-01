@@ -1,0 +1,52 @@
+ Copyright (C) 1995-2018 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.5.0
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+
+
+Variable: leftstring
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	850hPa Temperature~C~Anomaly correlation ~C~Date: day 1 to day 15 ~C~NHem Extratropics (lat 0.0 to 90.0. lon 0.0 to 360.0)
+
+Variable: var1mx
+Type: float
+Total Size: 796262400 bytes
+            199065600 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ens | 30] x [time | 120] x [lat | 192] x [lon | 288]
+Coordinates: 
+            ens: [1..30]
+            time: [0.125..  15]
+            lat: [-89.7643979057592..89.7643979057592]
+            lon: [   0..358.75]
+Number Of Attributes: 1
+  _FillValue :	1e+20
+
+Variable: fmp
+Type: float
+Total Size: 398131200 bytes
+            99532800 values
+Number of Dimensions: 4
+Dimensions and sizes:	[30] x [120] x [96] x [288]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	1e+20
+
+Variable: fbar
+Type: float
+Total Size: 14400 bytes
+            3600 values
+Number of Dimensions: 2
+Dimensions and sizes:	[30] x [120]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	1e+20
+
+
+0

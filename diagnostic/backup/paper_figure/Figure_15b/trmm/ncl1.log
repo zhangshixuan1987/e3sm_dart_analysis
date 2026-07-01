@@ -1,0 +1,18 @@
+nohup: ignoring input
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+warning:ttest: encountered 3 cases where var1 and/or var2 were less than or equal to 0. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where s1 and/or s2 were less than 2. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where var1 and/or var2 were less than or equal to 0. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where s1 and/or s2 were less than 2. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where var1 and/or var2 were less than or equal to 0. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where s1 and/or s2 were less than 2. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where var1 and/or var2 were less than or equal to 0. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where s1 and/or s2 were less than 2. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where var1 and/or var2 were less than or equal to 0. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where s1 and/or s2 were less than 2. Output set to missing values in these cases
+warning:ttest: encountered 7488 cases where var1 and/or var2 were less than or equal to 0. Output set to missing values in these cases
+input in flex scanner failed

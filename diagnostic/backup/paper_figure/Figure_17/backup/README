@@ -1,0 +1,10 @@
+
+Four scripts in this directory are for: 
+
+Southern Hemisphere: plot_rmse_bias_profil_eamv0_vs_eam_v1_T_SH.ncl
+
+Northern Hemisphere: plot_rmse_bias_profil_eamv0_vs_eam_v1_T_NH.ncl
+
+Tropics: plot_rmse_bias_profil_eamv0_vs_eam_v1_T_TP.ncl
+
+North American: plot_rmse_bias_profil_eamv0_vs_eam_v1_T_NA.ncl

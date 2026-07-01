@@ -1,0 +1,4554 @@
+nohup: ignoring input
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	255 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+(0,0)	2.44884 0 0
+(0,1)	2.44884 0 0
+(0,2)	2.44884 0 0
+(0,3)	2.44884 0 0
+(0,4)	2.44884 0 0
+(1,0)	2.14311 0 0
+(1,1)	2.72328 0 0
+(1,2)	2.85437 0 0
+(1,3)	3.01436 0 0
+(1,4)	3.00926 0 0
+(2,0)	2.63822 2.61076 2.66569
+(2,1)	2.77425 2.74523 2.80326
+(2,2)	2.8681 2.83788 2.89833
+(2,3)	2.94633 2.91297 2.97969
+(2,4)	2.946 2.90643 2.98556
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+(0,0)	229.36 0 0
+(0,1)	229.36 0 0
+(0,2)	229.36 0 0
+(0,3)	229.36 0 0
+(0,4)	229.36 0 0
+(1,0)	237.152 0 0
+(1,1)	232.571 0 0
+(1,2)	231.513 0 0
+(1,3)	230.261 0 0
+(1,4)	229.446 0 0
+(2,0)	232.44 231.804 233.076
+(2,1)	231.496 231.153 231.84
+(2,2)	230.694 230.383 231.004
+(2,3)	229.847 229.505 230.189
+(2,4)	229.231 228.864 229.598
+warning:VarVarWrite: Dimension names for dimension number (0) don't match, assigning name of rhs dimension to lhs and overwriting coordinate variable, use "(/../)" if this change is not desired
+warning:["Execute.c":8637]:Execute: Error occurred at or near line 132 in file 1_generate_data_time_series_set1.ncl
+
+warning:VarVarWrite: Dimension names for dimension number (0) don't match, assigning name of rhs dimension to lhs and overwriting coordinate variable, use "(/../)" if this change is not desired
+warning:["Execute.c":8637]:Execute: Error occurred at or near line 133 in file 1_generate_data_time_series_set1.ncl
+
+(0)	255 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77065..77095]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+(0,0)	2.77228 0 0
+(0,1)	2.77228 0 0
+(0,2)	2.77228 0 0
+(0,3)	2.77228 0 0
+(0,4)	2.77228 0 0
+(1,0)	2.27577 0 0
+(1,1)	2.80501 0 0
+(1,2)	2.88339 0 0
+(1,3)	3.01055 0 0
+(1,4)	2.97 0 0
+(2,0)	2.76493 2.73342 2.79643
+(2,1)	2.85301 2.82035 2.88566
+(2,2)	2.89102 2.85274 2.92931
+(2,3)	2.92148 2.88139 2.96157
+(2,4)	2.89192 2.84938 2.93446
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+(0,0)	222.623 0 0
+(0,1)	222.623 0 0
+(0,2)	222.623 0 0
+(0,3)	222.623 0 0
+(0,4)	222.623 0 0
+(1,0)	230.674 0 0
+(1,1)	226.754 0 0
+(1,2)	225.829 0 0
+(1,3)	224.907 0 0
+(1,4)	224.143 0 0
+(2,0)	225.45 224.726 226.175
+(2,1)	224.9 224.64 225.16
+(2,2)	224.364 224.159 224.569
+(2,3)	224.03 223.814 224.245
+(2,4)	223.563 223.319 223.807
+warning:VarVarWrite: Dimension names for dimension number (0) don't match, assigning name of rhs dimension to lhs and overwriting coordinate variable, use "(/../)" if this change is not desired
+warning:["Execute.c":8637]:Execute: Error occurred at or near line 132 in file 1_generate_data_time_series_set1.ncl
+
+warning:VarVarWrite: Dimension names for dimension number (0) don't match, assigning name of rhs dimension to lhs and overwriting coordinate variable, use "(/../)" if this change is not desired
+warning:["Execute.c":8637]:Execute: Error occurred at or near line 133 in file 1_generate_data_time_series_set1.ncl
+
+(0)	255 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77065..77095]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+(0,0)	4.34248 0 0
+(0,1)	4.34248 0 0
+(0,2)	4.34248 0 0
+(0,3)	4.34248 0 0
+(0,4)	4.34248 0 0
+(1,0)	3.66568 0 0
+(1,1)	4.56688 0 0
+(1,2)	4.67029 0 0
+(1,3)	4.53399 0 0
+(1,4)	4.58844 0 0
+(2,0)	4.11821 4.09129 4.14513
+(2,1)	4.33207 4.29674 4.3674
+(2,2)	4.42531 4.38769 4.46292
+(2,3)	4.46022 4.41757 4.50288
+(2,4)	4.54555 4.49708 4.59401
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   1..  31]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   2..  32]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   3..  33]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   4..  34]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 34283520 bytes
+            8570880 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 20] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   5..  35]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+(0,0)	250.728 0 0
+(0,1)	250.728 0 0
+(0,2)	250.728 0 0
+(0,3)	250.728 0 0
+(0,4)	250.728 0 0
+(1,0)	260.179 0 0
+(1,1)	252.612 0 0
+(1,2)	249.145 0 0
+(1,3)	249.836 0 0
+(1,4)	251.084 0 0
+(2,0)	257.049 256.284 257.814
+(2,1)	253.042 252.673 253.41
+(2,2)	250.937 250.542 251.333
+(2,3)	250.674 250.248 251.101
+(2,4)	251.126 250.637 251.614
+input in flex scanner failed

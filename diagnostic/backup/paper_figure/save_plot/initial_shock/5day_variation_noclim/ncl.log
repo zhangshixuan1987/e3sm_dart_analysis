@@ -1,0 +1,21 @@
+nohup: ignoring input
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	255 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+fatal:Dimension (2) of (obsdat) is not named and therefore doesn't have an associated coordinate variable
+fatal:["Execute.c":8637]:Execute: Error occurred at or near line 176 in file 1_generate_data_time_series_set1.ncl
+
+input in flex scanner failed

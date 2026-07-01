@@ -1,0 +1,37 @@
+nohup: ignoring input
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+
+
+Variable: modstr
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	0 - EAM_DART_d5,  1 - EAM_DART_d4,  2 - EAM_DART_d3,  3 - EAM_DART_d2,  4 - EAM_DART_d1,  5 - ERA5_NDGUV_d5,  6 - ERA5_NDGUV_d4,  7 - ERA5_NDGUV_d3,  8 - ERA5_NDGUV_d2,  9 - ERA5_NDGUV_d1;
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+warning:avg: Entire input array contains missing values, can't compute average
+input in flex scanner failed

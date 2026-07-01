@@ -1,0 +1,3912 @@
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+
+Variable: unnamed
+Type: file
+filename:	PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800_mean.cam.h0.2011-01
+path:	/pic/projects/E3SM_DA/zhan391/final_analysis/post_processing/post_processing_data/PD_NDG_ERA5UV_201101/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800_mean.cam.h0.2011-01.nc
+   file global attributes:
+      CDI : Climate Data Interface version 1.9.8 (https://mpimet.mpg.de/cdi)
+      Conventions : CF-1.0
+      history : Wed Aug 19 12:16:50 2020: ncks -A -v hyam,hybm,hyai,hybi,lev,ilev,gw,P0,date,nbdate,time /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800_ens01.cam.h0.2011-01.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800_mean.cam.h0.2011-01.nc
+Wed Aug 19 12:04:01 2020: cdo ensmean /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800_ens01.cam.h0.2011-01.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800_mean.cam.h0.2011-01.nc
+Wed Aug 19 12:00:59 2020: ncrcat /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-01-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-01-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-01-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-01-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-02-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-02-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-02-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-02-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-03-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-03-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-03-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-03-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-04-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-04-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-04-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-04-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-05-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-05-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-05-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-05-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-06-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-06-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-06-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-06-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-07-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-07-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-07-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-07-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-08-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-08-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-08-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-08-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-09-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-09-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-09-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-09-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-10-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-10-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-10-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-10-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-11-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-11-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-11-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-11-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-12-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-12-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-12-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-12-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-13-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-13-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-13-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-13-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-14-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-14-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-14-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-14-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-15-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-15-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-15-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-15-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-16-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-16-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-16-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-16-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-17-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-17-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-17-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-17-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-18-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-18-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-18-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-18-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-19-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-19-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-19-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-19-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-20-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-20-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-20-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-20-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-21-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-21-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-21-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-21-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-22-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-22-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-22-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-22-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-23-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-23-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-23-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-23-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-24-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-24-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-24-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-24-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-25-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-25-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-25-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-25-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-26-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-26-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-26-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-26-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-27-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-27-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-27-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-27-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-28-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-28-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-28-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-28-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-29-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-29-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-29-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-29-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-30-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-30-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-30-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-30-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-31-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-31-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-31-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-31-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800_ens01.cam.h0.2011-01.nc
+      source : CAM
+      case : PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800
+      title : UNSET
+      logname : zhan391
+      host : constance03.pnl.
+      Version : $Name$
+      revision_Id : $Id$
+      initial_file : /pic/projects/E3SM_DA/zhan391/e3sm_dart/acme_init/cam5_init/init_1.9x2.5/FAMIP_1.9x2.5_CTRL.cam.i.2010-12-01-00000.nc
+      topography_file : /pic/projects/climate/csmdata//atm/cam/topo/USGS-gtopo30_1.9x2.5_remap_c050602.nc
+      time_period_freq : hour_6
+      NCO : netCDF Operators version 4.8.0 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      CDO : Climate Data Operators version 1.9.8 (https://mpimet.mpg.de/cdo)
+      history_of_appended_files : Wed Aug 19 12:16:50 2020: Appended file /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800_ens01.cam.h0.2011-01.nc had following "history" attribute:
+Wed Aug 19 12:00:59 2020: ncrcat /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-01-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-01-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-01-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-01-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-02-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-02-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-02-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-02-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-03-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-03-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-03-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-03-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-04-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-04-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-04-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-04-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-05-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-05-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-05-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-05-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-06-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-06-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-06-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-06-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-07-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-07-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-07-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-07-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-08-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-08-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-08-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-08-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-09-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-09-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-09-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-09-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-10-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-10-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-10-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-10-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-11-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-11-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-11-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-11-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-12-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-12-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-12-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-12-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-13-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-13-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-13-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-13-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-14-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-14-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-14-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-14-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-15-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-15-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-15-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-15-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-16-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-16-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-16-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-16-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-17-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-17-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-17-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-17-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-18-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-18-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-18-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-18-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-19-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-19-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-19-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-19-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-20-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-20-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-20-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-20-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-21-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-21-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-21-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-21-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-22-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-22-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-22-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-22-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-23-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-23-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-23-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-23-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-24-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-24-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-24-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-24-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-25-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-25-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-25-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-25-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-26-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-26-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-26-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-26-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-27-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-27-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-27-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-27-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-28-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-28-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-28-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-28-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-29-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-29-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-29-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-29-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-30-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-30-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-30-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-30-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-31-00000.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-31-21600.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-31-43200.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/data/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800.cam.h0.2011-01-31-64800.nc /pic/projects/E3SM_DA/zhan391/precp_analysis/post_processing_data/PD_NDG_ERA5UV_201101/PDNDG_ERA5_F20TRC5-AMIP_f19_d025_DT1800_ens01.cam.h0.2011-01.nc
+
+   dimensions:
+      ncl_scalar = 1
+      time = 124  // unlimited
+      bnds = 2
+      lat = 96
+      lon = 144
+      lev = 30
+      ilev = 31
+   variables:
+      double time ( time )
+         standard_name :	time
+         long_name :	time
+         bounds :	time_bnds
+         units :	days since 2010-12-01 00:00:00
+         calendar :	gregorian
+         axis :	T
+
+      double time_bnds ( time, bnds )
+         long_name :	time interval endpoints
+
+      double lat ( lat )
+         standard_name :	latitude
+         long_name :	latitude
+         units :	degrees_north
+         axis :	Y
+
+      double lon ( lon )
+         standard_name :	longitude
+         long_name :	longitude
+         units :	degrees_east
+         axis :	X
+
+      double lev ( lev )
+         standard_name :	atmosphere_hybrid_sigma_pressure_coordinate
+         axis :	Z
+         positive :	down
+         long_name :	hybrid level at midpoints (1000*(A+B))
+         units :	hPa
+         formula_terms :	a: hyam b: hybm p0: P0 ps: PS
+         bounds :	lev_bnds
+
+      double lev_bnds ( lev, bnds )
+         standard_name :	atmosphere_hybrid_sigma_pressure_coordinate
+         units :	hPa
+         formula_terms :	ap: ap_bnds b: b_bnds ps: ps
+
+      double gw ( lat )
+         long_name :	latitude weights
+
+      integer date ( time )
+         long_name :	current date (YYYYMMDD)
+
+      integer datesec ( time )
+         long_name :	current seconds of current date
+
+      integer ndcur ( time )
+         long_name :	current day (from base day)
+
+      integer nscur ( time )
+         long_name :	current seconds of current day
+
+      double co2vmr ( time )
+         long_name :	co2 volume mixing ratio
+
+      double ch4vmr ( time )
+         long_name :	ch4 volume mixing ratio
+
+      double n2ovmr ( time )
+         long_name :	n2o volume mixing ratio
+
+      double f11vmr ( time )
+         long_name :	f11 volume mixing ratio
+
+      double f12vmr ( time )
+         long_name :	f12 volume mixing ratio
+
+      double sol_tsi ( time )
+         long_name :	total solar irradiance
+         units :	W/m2
+
+      integer nsteph ( time )
+         long_name :	current timestep
+
+      float ABSORB ( time, lev, lat, lon )
+         long_name :	Aerosol absorption
+         units :	/m
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ABSORB_d1 ( time, lev, lat, lon )
+         long_name :	Aerosol absorption
+         units :	/m
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ADRAIN ( time, lev, lat, lon )
+         long_name :	Average rain effective Diameter
+         units :	Micron
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ADSNOW ( time, lev, lat, lon )
+         long_name :	Average snow effective Diameter
+         units :	Micron
+         mdims :	1
+         cell_methods :	time: mean
+
+      float AEROD_v ( time, lat, lon )
+         long_name :	Total Aerosol Optical Depth in visible band
+         units :	1
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float ANRAIN ( time, lev, lat, lon )
+         long_name :	Average rain number conc
+         units :	m-3
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ANSNOW ( time, lev, lat, lon )
+         long_name :	Average snow number conc
+         units :	m-3
+         mdims :	1
+         cell_methods :	time: mean
+
+      float AODABS ( time, lat, lon )
+         long_name :	Aerosol absorption optical depth 550 nm
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODABSBC ( time, lat, lon )
+         long_name :	Aerosol absorption optical depth 550 nm from BC
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODABS_d1 ( time, lat, lon )
+         long_name :	Aerosol absorption optical depth 550 nm
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODALL ( time, lat, lon )
+         long_name :	AOD 550 nm for all time and species
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODALL_d1 ( time, lat, lon )
+         long_name :	AOD 550 nm all time
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODBC ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm from BC
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODDUST ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm from dust
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODDUST1 ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm model 1 from dust
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODDUST3 ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm model 3 from dust
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODMODE1 ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm mode 1
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODMODE2 ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm mode 2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODMODE3 ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm mode 3
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODNIR ( time, lat, lon )
+         long_name :	Aerosol optical depth 850 nm
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODPOM ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm from POM
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODSO4 ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm from SO4
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODSOA ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm from SOA
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODSS ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm from seasalt
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODUV ( time, lat, lon )
+         long_name :	Aerosol optical depth 350 nm
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODVIS ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AODVIS_d1 ( time, lat, lon )
+         long_name :	Aerosol optical depth 550 nm
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float AQRAIN ( time, lev, lat, lon )
+         long_name :	Average rain mixing ratio
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float AQSNOW ( time, lev, lat, lon )
+         long_name :	Average snow mixing ratio
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float AQSO4_H2O2 ( time, lat, lon )
+         long_name :	SO4 aqueous phase chemistry due to H2O2
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQSO4_O3 ( time, lat, lon )
+         long_name :	SO4 aqueous phase chemistry due to O3
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_DMS ( time, lat, lon )
+         long_name :	DMS aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_H2O2 ( time, lat, lon )
+         long_name :	H2O2 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_H2SO4 ( time, lat, lon )
+         long_name :	H2SO4 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_SO2 ( time, lat, lon )
+         long_name :	SO2 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_SOAG ( time, lat, lon )
+         long_name :	SOAG aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_bc_a1 ( time, lat, lon )
+         long_name :	bc_a1 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_dst_a1 ( time, lat, lon )
+         long_name :	dst_a1 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_dst_a3 ( time, lat, lon )
+         long_name :	dst_a3 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_ncl_a1 ( time, lat, lon )
+         long_name :	ncl_a1 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_ncl_a2 ( time, lat, lon )
+         long_name :	ncl_a2 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_ncl_a3 ( time, lat, lon )
+         long_name :	ncl_a3 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_num_a1 ( time, lat, lon )
+         long_name :	num_a1 aqueous chemistry (for gas species)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float AQ_num_a2 ( time, lat, lon )
+         long_name :	num_a2 aqueous chemistry (for gas species)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float AQ_num_a3 ( time, lat, lon )
+         long_name :	num_a3 aqueous chemistry (for gas species)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float AQ_pom_a1 ( time, lat, lon )
+         long_name :	pom_a1 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_so4_a1 ( time, lat, lon )
+         long_name :	so4_a1 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_so4_a2 ( time, lat, lon )
+         long_name :	so4_a2 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_so4_a3 ( time, lat, lon )
+         long_name :	so4_a3 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_soa_a1 ( time, lat, lon )
+         long_name :	soa_a1 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AQ_soa_a2 ( time, lat, lon )
+         long_name :	soa_a2 aqueous chemistry (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float AREI ( time, lev, lat, lon )
+         long_name :	Average ice effective radius
+         units :	Micron
+         mdims :	1
+         cell_methods :	time: mean
+
+      float AREL ( time, lev, lat, lon )
+         long_name :	Average droplet effective radius
+         units :	Micron
+         mdims :	1
+         cell_methods :	time: mean
+
+      float AWNC ( time, lev, lat, lon )
+         long_name :	Average cloud water number conc
+         units :	m-3
+         mdims :	1
+         cell_methods :	time: mean
+
+      float AWNI ( time, lev, lat, lon )
+         long_name :	Average cloud ice number conc
+         units :	m-3
+         mdims :	1
+         cell_methods :	time: mean
+
+      float BURDEN1 ( time, lat, lon )
+         long_name :	Aerosol burden mode 1
+         units :	kg/m2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float BURDEN2 ( time, lat, lon )
+         long_name :	Aerosol burden mode 2
+         units :	kg/m2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float BURDEN3 ( time, lat, lon )
+         long_name :	Aerosol burden mode 3
+         units :	kg/m2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float BURDENBC ( time, lat, lon )
+         long_name :	Black carbon aerosol burden
+         units :	kg/m2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float BURDENDUST ( time, lat, lon )
+         long_name :	Dust aerosol burden
+         units :	kg/m2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float BURDENPOM ( time, lat, lon )
+         long_name :	POM aerosol burden
+         units :	kg/m2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float BURDENSEASALT ( time, lat, lon )
+         long_name :	Seasalt aerosol burden
+         units :	kg/m2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float BURDENSO4 ( time, lat, lon )
+         long_name :	Sulfate aerosol burden
+         units :	kg/m2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float BURDENSOA ( time, lat, lon )
+         long_name :	SOA aerosol burden
+         units :	kg/m2
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float CCN3 ( time, lev, lat, lon )
+         long_name :	CCN concentration at S=0.1%
+         units :	#/cm3
+         mdims :	1
+         cell_methods :	time: mean
+
+      float CDNUMC ( time, lat, lon )
+         long_name :	Vertically-integrated droplet concentration
+         units :	1/m2
+         cell_methods :	time: mean
+
+      float CLDHGH ( time, lat, lon )
+         long_name :	Vertically-integrated high cloud
+         units :	fraction
+         cell_methods :	time: mean
+
+      float CLDICE ( time, lev, lat, lon )
+         long_name :	Grid box averaged cloud ice amount
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float CLDLIQ ( time, lev, lat, lon )
+         long_name :	Grid box averaged cloud liquid amount
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float CLDLOW ( time, lat, lon )
+         long_name :	Vertically-integrated low cloud
+         units :	fraction
+         cell_methods :	time: mean
+
+      float CLDMED ( time, lat, lon )
+         long_name :	Vertically-integrated mid-level cloud
+         units :	fraction
+         cell_methods :	time: mean
+
+      float CLDTOT ( time, lat, lon )
+         long_name :	Vertically-integrated total cloud
+         units :	fraction
+         cell_methods :	time: mean
+
+      float CLOUD ( time, lev, lat, lon )
+         long_name :	Cloud fraction
+         units :	fraction
+         mdims :	1
+         cell_methods :	time: mean
+
+      float CONCLD ( time, lev, lat, lon )
+         long_name :	Convective cloud cover
+         units :	fraction
+         mdims :	1
+         cell_methods :	time: mean
+
+      float DCQ ( time, lev, lat, lon )
+         long_name :	Q tendency due to moist processes
+         units :	kg/kg/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float DMS ( time, lev, lat, lon )
+         long_name :	DMS concentration
+         units :	mol/mol
+         mdims :	1
+         cell_methods :	time: mean
+
+      float DMS_SRF ( time, lat, lon )
+         long_name :	DMS in bottom layer
+         units :	mol/mol
+         cell_methods :	time: mean
+
+      float DSTSFMBL ( time, lat, lon )
+         long_name :	Mobilization flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float DTCOND ( time, lev, lat, lon )
+         long_name :	T tendency - moist processes
+         units :	K/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float DTENDTH ( time, lat, lon )
+         long_name :	Dynamic Tendency of Total (vertically integrated) moist static energy
+         units :	W/m2
+         cell_methods :	time: mean
+
+      float DTENDTQ ( time, lat, lon )
+         long_name :	Dynamic Tendency of Total (vertically integrated) specific humidity
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float DTV ( time, lev, lat, lon )
+         long_name :	T vertical diffusion
+         units :	K/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float EMISCLD ( time, lev, lat, lon )
+         long_name :	cloud emissivity
+         units :	1
+         mdims :	1
+         cell_methods :	time: mean
+
+      float EXTINCT ( time, lev, lat, lon )
+         long_name :	Aerosol extinction
+         units :	/m
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         mdims :	1
+         cell_methods :	time: mean
+
+      float EXTINCT_d1 ( time, lev, lat, lon )
+         long_name :	Aerosol extinction
+         units :	/m
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         mdims :	1
+         cell_methods :	time: mean
+
+      float FICE ( time, lev, lat, lon )
+         long_name :	Fractional ice content within cloud
+         units :	fraction
+         mdims :	1
+         cell_methods :	time: mean
+
+      float FLDS ( time, lat, lon )
+         long_name :	Downwelling longwave flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLDS_d1 ( time, lat, lon )
+         long_name :	Downwelling longwave flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLNS ( time, lat, lon )
+         long_name :	Net longwave flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLNSC ( time, lat, lon )
+         long_name :	Clearsky net longwave flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLNSC_d1 ( time, lat, lon )
+         long_name :	Clearsky net longwave flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLNS_d1 ( time, lat, lon )
+         long_name :	Net longwave flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLNT ( time, lat, lon )
+         long_name :	Net longwave flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLNTC ( time, lat, lon )
+         long_name :	Clearsky net longwave flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLNTC_d1 ( time, lat, lon )
+         long_name :	Clearsky net longwave flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLNT_d1 ( time, lat, lon )
+         long_name :	Net longwave flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLUT ( time, lat, lon )
+         long_name :	Upwelling longwave flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLUTC ( time, lat, lon )
+         long_name :	Clearsky upwelling longwave flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLUTC_d1 ( time, lat, lon )
+         long_name :	Clearsky upwelling longwave flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FLUT_d1 ( time, lat, lon )
+         long_name :	Upwelling longwave flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FREQI ( time, lev, lat, lon )
+         long_name :	Fractional occurrence of ice
+         units :	fraction
+         mdims :	1
+         cell_methods :	time: mean
+
+      float FREQL ( time, lev, lat, lon )
+         long_name :	Fractional occurrence of liquid
+         units :	fraction
+         mdims :	1
+         cell_methods :	time: mean
+
+      float FREQR ( time, lev, lat, lon )
+         long_name :	Fractional occurrence of rain
+         units :	fraction
+         mdims :	1
+         cell_methods :	time: mean
+
+      float FREQS ( time, lev, lat, lon )
+         long_name :	Fractional occurrence of snow
+         units :	fraction
+         mdims :	1
+         cell_methods :	time: mean
+
+      float FSDS ( time, lat, lon )
+         long_name :	Downwelling solar flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSDSC ( time, lat, lon )
+         long_name :	Clearsky downwelling solar flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSDSC_d1 ( time, lat, lon )
+         long_name :	Clearsky downwelling solar flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSDS_d1 ( time, lat, lon )
+         long_name :	Downwelling solar flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNS ( time, lat, lon )
+         long_name :	Net solar flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNSC ( time, lat, lon )
+         long_name :	Clearsky net solar flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNSC_d1 ( time, lat, lon )
+         long_name :	Clearsky net solar flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNS_d1 ( time, lat, lon )
+         long_name :	Net solar flux at surface
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNT ( time, lat, lon )
+         long_name :	Net solar flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNTC ( time, lat, lon )
+         long_name :	Clearsky net solar flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNTC_d1 ( time, lat, lon )
+         long_name :	Clearsky net solar flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNTOA ( time, lat, lon )
+         long_name :	Net solar flux at top of atmosphere
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNTOAC ( time, lat, lon )
+         long_name :	Clearsky net solar flux at top of atmosphere
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNTOAC_d1 ( time, lat, lon )
+         long_name :	Clearsky net solar flux at top of atmosphere
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNTOA_d1 ( time, lat, lon )
+         long_name :	Net solar flux at top of atmosphere
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSNT_d1 ( time, lat, lon )
+         long_name :	Net solar flux at top of model
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSUTOA ( time, lat, lon )
+         long_name :	Upwelling solar flux at top of atmosphere
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSUTOAC ( time, lat, lon )
+         long_name :	Clearsky upwelling solar flux at top of atmosphere
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSUTOAC_d1 ( time, lat, lon )
+         long_name :	Clearsky upwelling solar flux at top of atmosphere
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float FSUTOA_d1 ( time, lat, lon )
+         long_name :	Upwelling solar flux at top of atmosphere
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float GS_DMS ( time, lat, lon )
+         long_name :	DMS gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_H2O2 ( time, lat, lon )
+         long_name :	H2O2 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_H2SO4 ( time, lat, lon )
+         long_name :	H2SO4 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_SO2 ( time, lat, lon )
+         long_name :	SO2 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_SOAG ( time, lat, lon )
+         long_name :	SOAG gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_bc_a1 ( time, lat, lon )
+         long_name :	bc_a1 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_dst_a1 ( time, lat, lon )
+         long_name :	dst_a1 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_dst_a3 ( time, lat, lon )
+         long_name :	dst_a3 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_ncl_a1 ( time, lat, lon )
+         long_name :	ncl_a1 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_ncl_a2 ( time, lat, lon )
+         long_name :	ncl_a2 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_ncl_a3 ( time, lat, lon )
+         long_name :	ncl_a3 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_num_a1 ( time, lat, lon )
+         long_name :	num_a1 gas chemistry/wet removal (for gas species)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float GS_num_a2 ( time, lat, lon )
+         long_name :	num_a2 gas chemistry/wet removal (for gas species)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float GS_num_a3 ( time, lat, lon )
+         long_name :	num_a3 gas chemistry/wet removal (for gas species)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float GS_pom_a1 ( time, lat, lon )
+         long_name :	pom_a1 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_so4_a1 ( time, lat, lon )
+         long_name :	so4_a1 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_so4_a2 ( time, lat, lon )
+         long_name :	so4_a2 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_so4_a3 ( time, lat, lon )
+         long_name :	so4_a3 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_soa_a1 ( time, lat, lon )
+         long_name :	soa_a1 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float GS_soa_a2 ( time, lat, lon )
+         long_name :	soa_a2 gas chemistry/wet removal (for gas species)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float H2O2 ( time, lev, lat, lon )
+         long_name :	H2O2 concentration
+         units :	mol/mol
+         mdims :	1
+         cell_methods :	time: mean
+
+      float H2O2_SRF ( time, lat, lon )
+         long_name :	H2O2 in bottom layer
+         units :	mol/mol
+         cell_methods :	time: mean
+
+      float H2SO4 ( time, lev, lat, lon )
+         long_name :	H2SO4 concentration
+         units :	mol/mol
+         mdims :	1
+         cell_methods :	time: mean
+
+      float H2SO4_SRF ( time, lat, lon )
+         long_name :	H2SO4 in bottom layer
+         units :	mol/mol
+         cell_methods :	time: mean
+
+      float H2SO4_sfgaex1 ( time, lat, lon )
+         long_name :	H2SO4 gas-aerosol-exchange primary column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float H2SO4_sfnnuc1 ( time, lat, lon )
+         long_name :	H2SO4 modal_aero new particle nucleation column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ICEFRAC ( time, lat, lon )
+         long_name :	Fraction of sfc area covered by sea-ice
+         units :	fraction
+         cell_methods :	time: mean
+
+      float ICIMR ( time, lev, lat, lon )
+         long_name :	Prognostic in-cloud ice mixing ratio
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ICWMR ( time, lev, lat, lon )
+         long_name :	Prognostic in-cloud water mixing ratio
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float IWC ( time, lev, lat, lon )
+         long_name :	Grid box average ice water content
+         units :	kg/m3
+         mdims :	1
+         cell_methods :	time: mean
+
+      float LANDFRAC ( time, lat, lon )
+         long_name :	Fraction of sfc area covered by land
+         units :	fraction
+         cell_methods :	time: mean
+
+      float LHFLX ( time, lat, lon )
+         long_name :	Surface latent heat flux
+         units :	W/m2
+         cell_methods :	time: mean
+
+      float LIQCLDF ( time, lev, lat, lon )
+         long_name :	Stratus Liquid cloud fraction
+         units :	1
+         mdims :	1
+         cell_methods :	time: mean
+
+      float LND_MBL ( time, lat, lon )
+         long_name :	Soil erodibility factor
+         units :	frac
+         cell_methods :	time: mean
+
+      float LWCF ( time, lat, lon )
+         long_name :	Longwave cloud forcing
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float LWCF_d1 ( time, lat, lon )
+         long_name :	Longwave cloud forcing
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float NUMICE ( time, lev, lat, lon )
+         long_name :	Grid box averaged cloud ice number
+         units :	1/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float NUMLIQ ( time, lev, lat, lon )
+         long_name :	Grid box averaged cloud liquid number
+         units :	1/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float OCNFRAC ( time, lat, lon )
+         long_name :	Fraction of sfc area covered by ocean
+         units :	fraction
+         cell_methods :	time: mean
+
+      float ODV_VOLC_MMR ( time, lat, lon )
+         long_name :	VOLC_MMR optical depth in visible band
+         units :	1
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float OMEGA ( time, lev, lat, lon )
+         long_name :	Vertical velocity (pressure)
+         units :	Pa/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float OMEGA500 ( time, lat, lon )
+         long_name :	Vertical velocity at 500 mbar pressure surface
+         units :	Pa/s
+         cell_methods :	time: mean
+
+      float OMEGAT ( time, lev, lat, lon )
+         long_name :	Vertical heat flux
+         units :	K Pa/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float PBLH ( time, lat, lon )
+         long_name :	PBL height
+         units :	m
+         cell_methods :	time: mean
+
+      float PHIS ( time, lat, lon )
+         long_name :	Surface geopotential
+         units :	m2/s2
+         cell_methods :	time: mean
+
+      float PRECC ( time, lat, lon )
+         long_name :	Convective precipitation rate (liq + ice)
+         units :	m/s
+         cell_methods :	time: mean
+
+      float PRECL ( time, lat, lon )
+         long_name :	Large-scale (stable) precipitation rate (liq + ice)
+         units :	m/s
+         cell_methods :	time: mean
+
+      float PRECSC ( time, lat, lon )
+         long_name :	Convective snow rate (water equivalent)
+         units :	m/s
+         cell_methods :	time: mean
+
+      float PRECSL ( time, lat, lon )
+         long_name :	Large-scale (stable) snow rate (water equivalent)
+         units :	m/s
+         cell_methods :	time: mean
+
+      float PS ( time, lat, lon )
+         long_name :	Surface pressure
+         units :	Pa
+         cell_methods :	time: mean
+
+      float PSL ( time, lat, lon )
+         long_name :	Sea level pressure
+         units :	Pa
+         cell_methods :	time: mean
+
+      float Q ( time, lev, lat, lon )
+         long_name :	Specific humidity
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float QFLX ( time, lat, lon )
+         long_name :	Surface water flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float QREFHT ( time, lat, lon )
+         long_name :	Reference height humidity
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float QRL ( time, lev, lat, lon )
+         long_name :	Longwave heating rate
+         units :	K/s
+         mdims :	1
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float QRL_d1 ( time, lev, lat, lon )
+         long_name :	Longwave heating rate
+         units :	K/s
+         mdims :	1
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float QRS ( time, lev, lat, lon )
+         long_name :	Solar heating rate
+         units :	K/s
+         mdims :	1
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float QRS_d1 ( time, lev, lat, lon )
+         long_name :	Solar heating rate
+         units :	K/s
+         mdims :	1
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float RAM1 ( time, lat, lon )
+         long_name :	RAM1
+         units :	frac
+         cell_methods :	time: mean
+
+      float RELHUM ( time, lev, lat, lon )
+         long_name :	Relative humidity
+         units :	percent
+         mdims :	1
+         cell_methods :	time: mean
+
+      float RH700 ( time, lat, lon )
+         long_name :	Relative humidity at 700 mbar pressure surface
+         units :	%
+         cell_methods :	time: mean
+
+      float SFDMS ( time, lat, lon )
+         long_name :	DMS surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFH2O2 ( time, lat, lon )
+         long_name :	H2O2 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFH2SO4 ( time, lat, lon )
+         long_name :	H2SO4 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFSO2 ( time, lat, lon )
+         long_name :	SO2 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFSOAG ( time, lat, lon )
+         long_name :	SOAG surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFbc_a1 ( time, lat, lon )
+         long_name :	bc_a1 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFdst_a1 ( time, lat, lon )
+         long_name :	dst_a1 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFdst_a3 ( time, lat, lon )
+         long_name :	dst_a3 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFncl_a1 ( time, lat, lon )
+         long_name :	ncl_a1 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFncl_a2 ( time, lat, lon )
+         long_name :	ncl_a2 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFncl_a3 ( time, lat, lon )
+         long_name :	ncl_a3 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFnum_a1 ( time, lat, lon )
+         long_name :	num_a1 surface flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float SFnum_a2 ( time, lat, lon )
+         long_name :	num_a2 surface flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float SFnum_a3 ( time, lat, lon )
+         long_name :	num_a3 surface flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float SFpom_a1 ( time, lat, lon )
+         long_name :	pom_a1 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFso4_a1 ( time, lat, lon )
+         long_name :	so4_a1 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFso4_a2 ( time, lat, lon )
+         long_name :	so4_a2 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFso4_a3 ( time, lat, lon )
+         long_name :	so4_a3 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFsoa_a1 ( time, lat, lon )
+         long_name :	soa_a1 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SFsoa_a2 ( time, lat, lon )
+         long_name :	soa_a2 surface flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SHFLX ( time, lat, lon )
+         long_name :	Surface sensible heat flux
+         units :	W/m2
+         cell_methods :	time: mean
+
+      float SNOWHICE ( time, lat, lon )
+         long_name :	Snow depth over ice
+         units :	m
+         cell_methods :	time: mean
+
+      float SNOWHLND ( time, lat, lon )
+         long_name :	Water equivalent snow depth
+         units :	m
+         cell_methods :	time: mean
+
+      float SO2 ( time, lev, lat, lon )
+         long_name :	SO2 concentration
+         units :	mol/mol
+         mdims :	1
+         cell_methods :	time: mean
+
+      float SO2_CLXF ( time, lat, lon )
+         long_name :	vertically intergrated external forcing for SO2
+         units :	molec/cm2/s
+         cell_methods :	time: mean
+
+      float SO2_SRF ( time, lat, lon )
+         long_name :	SO2 in bottom layer
+         units :	mol/mol
+         cell_methods :	time: mean
+
+      float SO2_XFRC ( time, lev, lat, lon )
+         long_name :	external forcing for SO2
+         units :	molec/cm3/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float SOAG ( time, lev, lat, lon )
+         long_name :	SOAG concentration
+         units :	mol/mol
+         mdims :	1
+         cell_methods :	time: mean
+
+      float SOAG_SRF ( time, lat, lon )
+         long_name :	SOAG in bottom layer
+         units :	mol/mol
+         cell_methods :	time: mean
+
+      float SOAG_sfgaex1 ( time, lat, lon )
+         long_name :	SOAG gas-aerosol-exchange primary column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SOLIN ( time, lat, lon )
+         long_name :	Solar insolation
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float SOLIN_d1 ( time, lat, lon )
+         long_name :	Solar insolation
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float SSAVIS ( time, lat, lon )
+         long_name :	Aerosol singel-scatter albedo
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float SSTSFMBL ( time, lat, lon )
+         long_name :	Mobilization flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float SWCF ( time, lat, lon )
+         long_name :	Shortwave cloud forcing
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float SWCF_d1 ( time, lat, lon )
+         long_name :	Shortwave cloud forcing
+         units :	W/m2
+         Sampling_Sequence :	rad_lwsw
+         cell_methods :	time: mean
+
+      float T ( time, lev, lat, lon )
+         long_name :	Temperature
+         units :	K
+         mdims :	1
+         cell_methods :	time: mean
+
+      float TAUGWX ( time, lat, lon )
+         long_name :	Zonal gravity wave surface stress
+         units :	N/m2
+         cell_methods :	time: mean
+
+      float TAUGWY ( time, lat, lon )
+         long_name :	Meridional gravity wave surface stress
+         units :	N/m2
+         cell_methods :	time: mean
+
+      float TAUX ( time, lat, lon )
+         long_name :	Zonal surface stress
+         units :	N/m2
+         cell_methods :	time: mean
+
+      float TAUY ( time, lat, lon )
+         long_name :	Meridional surface stress
+         units :	N/m2
+         cell_methods :	time: mean
+
+      float TGCLDCWP ( time, lat, lon )
+         long_name :	Total grid-box cloud water path (liquid and ice)
+         units :	kg/m2
+         cell_methods :	time: mean
+
+      float TGCLDIWP ( time, lat, lon )
+         long_name :	Total grid-box cloud ice water path
+         units :	kg/m2
+         cell_methods :	time: mean
+
+      float TGCLDLWP ( time, lat, lon )
+         long_name :	Total grid-box cloud liquid water path
+         units :	kg/m2
+         cell_methods :	time: mean
+
+      float TH7001000 ( time, lat, lon )
+         long_name :	Theta difference 700 mb - 1000 mb
+         units :	K
+         cell_methods :	time: mean
+
+      float THE7001000 ( time, lat, lon )
+         long_name :	ThetaE difference 700 mb - 1000 mb
+         units :	K
+         cell_methods :	time: mean
+
+      float TMQ ( time, lat, lon )
+         long_name :	Total (vertically integrated) precipitable water
+         units :	kg/m2
+         cell_methods :	time: mean
+
+      float TREFHT ( time, lat, lon )
+         long_name :	Reference height temperature
+         units :	K
+         cell_methods :	time: mean
+
+      float TROP_P ( time, lat, lon )
+         long_name :	Tropopause Pressure
+         units :	Pa
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float TROP_T ( time, lat, lon )
+         long_name :	Tropopause Temperature
+         units :	K
+         _FillValue :	1e+36
+         missing_value :	1e+36
+         cell_methods :	time: mean
+
+      float TS ( time, lat, lon )
+         long_name :	Surface temperature (radiative)
+         units :	K
+         cell_methods :	time: mean
+
+      float TSMN ( time, lat, lon )
+         long_name :	Minimum surface temperature over output period
+         units :	K
+         cell_methods :	time: mean
+
+      float TSMX ( time, lat, lon )
+         long_name :	Maximum surface temperature over output period
+         units :	K
+         cell_methods :	time: mean
+
+      float TUH ( time, lat, lon )
+         long_name :	Total (vertically integrated) zonal MSE flux
+         units :	W/m
+         cell_methods :	time: mean
+
+      float TUQ ( time, lat, lon )
+         long_name :	Total (vertically integrated) zonal water flux
+         units :	kg/m/s
+         cell_methods :	time: mean
+
+      float TVH ( time, lat, lon )
+         long_name :	Total (vertically integrated) meridional MSE flux
+         units :	W/m
+         cell_methods :	time: mean
+
+      float TVQ ( time, lat, lon )
+         long_name :	Total (vertically integrated) meridional water flux
+         units :	kg/m/s
+         cell_methods :	time: mean
+
+      float U ( time, lev, lat, lon )
+         long_name :	Zonal wind
+         units :	m/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float U10 ( time, lat, lon )
+         long_name :	10m wind speed
+         units :	m/s
+         cell_methods :	time: mean
+
+      float UU ( time, lev, lat, lon )
+         long_name :	Zonal velocity squared
+         units :	m2/s2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float V ( time, lev, lat, lon )
+         long_name :	Meridional wind
+         units :	m/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float VD01 ( time, lev, lat, lon )
+         long_name :	Vertical diffusion of Q
+         units :	kg/kg/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float VQ ( time, lev, lat, lon )
+         long_name :	Meridional water transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float VT ( time, lev, lat, lon )
+         long_name :	Meridional heat transport
+         units :	K m/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float VU ( time, lev, lat, lon )
+         long_name :	Meridional flux of zonal momentum
+         units :	m2/s2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float VV ( time, lev, lat, lon )
+         long_name :	Meridional velocity squared
+         units :	m2/s2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vbc_a1 ( time, lev, lat, lon )
+         long_name :	Meridional bc_a1 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vdst_a1 ( time, lev, lat, lon )
+         long_name :	Meridional dst_a1 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vdst_a3 ( time, lev, lat, lon )
+         long_name :	Meridional dst_a3 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vncl_a1 ( time, lev, lat, lon )
+         long_name :	Meridional ncl_a1 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vncl_a2 ( time, lev, lat, lon )
+         long_name :	Meridional ncl_a2 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vncl_a3 ( time, lev, lat, lon )
+         long_name :	Meridional ncl_a3 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vpom_a1 ( time, lev, lat, lon )
+         long_name :	Meridional pom_a1 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vso4_a1 ( time, lev, lat, lon )
+         long_name :	Meridional so4_a1 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vso4_a2 ( time, lev, lat, lon )
+         long_name :	Meridional so4_a2 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vso4_a3 ( time, lev, lat, lon )
+         long_name :	Meridional so4_a3 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vsoa_a1 ( time, lev, lat, lon )
+         long_name :	Meridional soa_a1 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Vsoa_a2 ( time, lev, lat, lon )
+         long_name :	Meridional soa_a2 transport
+         units :	m/skg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float WGUSTD ( time, lat, lon )
+         long_name :	wind gusts from turbulence
+         units :	m/s
+         cell_methods :	time: mean
+
+      float WSUB ( time, lev, lat, lon )
+         long_name :	Diagnostic sub-grid vertical velocity
+         units :	m/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float XPH_LWC ( time, lev, lat, lon )
+         long_name :	pH value multiplied by lwc
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float Z3 ( time, lev, lat, lon )
+         long_name :	Geopotential Height (above sea level)
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float airFV ( time, lat, lon )
+         long_name :	FV
+         units :	frac
+         cell_methods :	time: mean
+
+      float bc_a1 ( time, lev, lat, lon )
+         long_name :	bc_a1 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float bc_a1DDF ( time, lat, lon )
+         long_name :	bc_a1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_a1GVF ( time, lat, lon )
+         long_name :	bc_a1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_a1SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_a1SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_a1SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_a1SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_a1SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_a1TBF ( time, lat, lon )
+         long_name :	bc_a1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_a1_2 ( time, lev, lat, lon )
+         long_name :	bc_a1 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float bc_a1_CLXF ( time, lat, lon )
+         long_name :	vertically intergrated external forcing for bc_a1
+         units :	molec/cm2/s
+         cell_methods :	time: mean
+
+      float bc_a1_SRF ( time, lat, lon )
+         long_name :	bc_a1 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float bc_a1_XFRC ( time, lev, lat, lon )
+         long_name :	external forcing for bc_a1
+         units :	molec/cm3/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float bc_a1_mixnuc1 ( time, lat, lon )
+         long_name :	bc_a1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_c1 ( time, lev, lat, lon )
+         long_name :	bc_c1 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float bc_c1DDF ( time, lat, lon )
+         long_name :	bc_c1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_c1GVF ( time, lat, lon )
+         long_name :	bc_c1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_c1SFSBC ( time, lat, lon )
+         long_name :	bc_c1 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_c1SFSBS ( time, lat, lon )
+         long_name :	bc_c1 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_c1SFSIC ( time, lat, lon )
+         long_name :	bc_c1 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_c1SFSIS ( time, lat, lon )
+         long_name :	bc_c1 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_c1SFWET ( time, lat, lon )
+         long_name :	bc_c1 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_c1TBF ( time, lat, lon )
+         long_name :	bc_c1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float bc_c1_mixnuc1 ( time, lat, lon )
+         long_name :	bc_c1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dgnd_a01 ( time, lev, lat, lon )
+         long_name :	dry dgnum, interstitial, mode 01
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dgnd_a02 ( time, lev, lat, lon )
+         long_name :	dry dgnum, interstitial, mode 02
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dgnd_a03 ( time, lev, lat, lon )
+         long_name :	dry dgnum, interstitial, mode 03
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dgnumwet1 ( time, lev, lat, lon )
+         long_name :	Aerosol mode wet diameter
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dgnumwet2 ( time, lev, lat, lon )
+         long_name :	Aerosol mode wet diameter
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dgnumwet3 ( time, lev, lat, lon )
+         long_name :	Aerosol mode wet diameter
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dgnw_a01 ( time, lev, lat, lon )
+         long_name :	wet dgnum, interstitial, mode 01
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dgnw_a02 ( time, lev, lat, lon )
+         long_name :	wet dgnum, interstitial, mode 02
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dgnw_a03 ( time, lev, lat, lon )
+         long_name :	wet dgnum, interstitial, mode 03
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dst_a1 ( time, lev, lat, lon )
+         long_name :	dst_a1 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dst_a1DDF ( time, lat, lon )
+         long_name :	dst_a1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a1GVF ( time, lat, lon )
+         long_name :	dst_a1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a1SF ( time, lat, lon )
+         long_name :	dst_a1 dust surface emission
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a1SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a1SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a1SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a1SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a1SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a1TBF ( time, lat, lon )
+         long_name :	dst_a1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a1_2 ( time, lev, lat, lon )
+         long_name :	dst_a1 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dst_a1_SRF ( time, lat, lon )
+         long_name :	dst_a1 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float dst_a1_mixnuc1 ( time, lat, lon )
+         long_name :	dst_a1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3 ( time, lev, lat, lon )
+         long_name :	dst_a3 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dst_a3DDF ( time, lat, lon )
+         long_name :	dst_a3 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3GVF ( time, lat, lon )
+         long_name :	dst_a3 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3SF ( time, lat, lon )
+         long_name :	dst_a3 dust surface emission
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3TBF ( time, lat, lon )
+         long_name :	dst_a3 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_a3_2 ( time, lev, lat, lon )
+         long_name :	dst_a3 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dst_a3_SRF ( time, lat, lon )
+         long_name :	dst_a3 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float dst_a3_mixnuc1 ( time, lat, lon )
+         long_name :	dst_a3 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c1 ( time, lev, lat, lon )
+         long_name :	dst_c1 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dst_c1DDF ( time, lat, lon )
+         long_name :	dst_c1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c1GVF ( time, lat, lon )
+         long_name :	dst_c1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c1SFSBC ( time, lat, lon )
+         long_name :	dst_c1 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c1SFSBS ( time, lat, lon )
+         long_name :	dst_c1 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c1SFSIC ( time, lat, lon )
+         long_name :	dst_c1 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c1SFSIS ( time, lat, lon )
+         long_name :	dst_c1 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c1SFWET ( time, lat, lon )
+         long_name :	dst_c1 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c1TBF ( time, lat, lon )
+         long_name :	dst_c1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c1_mixnuc1 ( time, lat, lon )
+         long_name :	dst_c1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c3 ( time, lev, lat, lon )
+         long_name :	dst_c3 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float dst_c3DDF ( time, lat, lon )
+         long_name :	dst_c3 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c3GVF ( time, lat, lon )
+         long_name :	dst_c3 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c3SFSBC ( time, lat, lon )
+         long_name :	dst_c3 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c3SFSBS ( time, lat, lon )
+         long_name :	dst_c3 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c3SFSIC ( time, lat, lon )
+         long_name :	dst_c3 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c3SFSIS ( time, lat, lon )
+         long_name :	dst_c3 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c3SFWET ( time, lat, lon )
+         long_name :	dst_c3 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c3TBF ( time, lat, lon )
+         long_name :	dst_c3 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float dst_c3_mixnuc1 ( time, lat, lon )
+         long_name :	dst_c3 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float hstobie_linoz ( time, lev, lat, lon )
+         long_name :	Lowest possible Linoz level
+         units :	fraction of model time
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_a1 ( time, lev, lat, lon )
+         long_name :	ncl_a1 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_a1DDF ( time, lat, lon )
+         long_name :	ncl_a1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1GVF ( time, lat, lon )
+         long_name :	ncl_a1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1SF ( time, lat, lon )
+         long_name :	ncl_a1 seasalt surface emission
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1TBF ( time, lat, lon )
+         long_name :	ncl_a1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1_2 ( time, lev, lat, lon )
+         long_name :	ncl_a1 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_a1_SRF ( time, lat, lon )
+         long_name :	ncl_a1 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float ncl_a1_mixnuc1 ( time, lat, lon )
+         long_name :	ncl_a1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1_sfcoag1 ( time, lat, lon )
+         long_name :	ncl_a1 modal_aero coagulation column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1_sfcsiz3 ( time, lat, lon )
+         long_name :	ncl_a1 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1_sfcsiz4 ( time, lat, lon )
+         long_name :	ncl_a1 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a1_sfgaex2 ( time, lat, lon )
+         long_name :	ncl_a1 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2 ( time, lev, lat, lon )
+         long_name :	ncl_a2 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_a2DDF ( time, lat, lon )
+         long_name :	ncl_a2 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2GVF ( time, lat, lon )
+         long_name :	ncl_a2 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2SF ( time, lat, lon )
+         long_name :	ncl_a2 seasalt surface emission
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2TBF ( time, lat, lon )
+         long_name :	ncl_a2 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2_2 ( time, lev, lat, lon )
+         long_name :	ncl_a2 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_a2_SRF ( time, lat, lon )
+         long_name :	ncl_a2 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float ncl_a2_mixnuc1 ( time, lat, lon )
+         long_name :	ncl_a2 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2_sfcoag1 ( time, lat, lon )
+         long_name :	ncl_a2 modal_aero coagulation column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2_sfcsiz3 ( time, lat, lon )
+         long_name :	ncl_a2 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2_sfcsiz4 ( time, lat, lon )
+         long_name :	ncl_a2 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a2_sfgaex2 ( time, lat, lon )
+         long_name :	ncl_a2 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3 ( time, lev, lat, lon )
+         long_name :	ncl_a3 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_a3DDF ( time, lat, lon )
+         long_name :	ncl_a3 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3GVF ( time, lat, lon )
+         long_name :	ncl_a3 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3SF ( time, lat, lon )
+         long_name :	ncl_a3 seasalt surface emission
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3TBF ( time, lat, lon )
+         long_name :	ncl_a3 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_a3_2 ( time, lev, lat, lon )
+         long_name :	ncl_a3 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_a3_SRF ( time, lat, lon )
+         long_name :	ncl_a3 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float ncl_a3_mixnuc1 ( time, lat, lon )
+         long_name :	ncl_a3 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1 ( time, lev, lat, lon )
+         long_name :	ncl_c1 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_c1DDF ( time, lat, lon )
+         long_name :	ncl_c1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1GVF ( time, lat, lon )
+         long_name :	ncl_c1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1SFSBC ( time, lat, lon )
+         long_name :	ncl_c1 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1SFSBS ( time, lat, lon )
+         long_name :	ncl_c1 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1SFSIC ( time, lat, lon )
+         long_name :	ncl_c1 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1SFSIS ( time, lat, lon )
+         long_name :	ncl_c1 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1SFWET ( time, lat, lon )
+         long_name :	ncl_c1 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1TBF ( time, lat, lon )
+         long_name :	ncl_c1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1_mixnuc1 ( time, lat, lon )
+         long_name :	ncl_c1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1_sfcsiz3 ( time, lat, lon )
+         long_name :	ncl_c1 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1_sfcsiz4 ( time, lat, lon )
+         long_name :	ncl_c1 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c1_sfgaex2 ( time, lat, lon )
+         long_name :	ncl_c1 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2 ( time, lev, lat, lon )
+         long_name :	ncl_c2 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_c2DDF ( time, lat, lon )
+         long_name :	ncl_c2 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2GVF ( time, lat, lon )
+         long_name :	ncl_c2 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2SFSBC ( time, lat, lon )
+         long_name :	ncl_c2 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2SFSBS ( time, lat, lon )
+         long_name :	ncl_c2 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2SFSIC ( time, lat, lon )
+         long_name :	ncl_c2 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2SFSIS ( time, lat, lon )
+         long_name :	ncl_c2 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2SFWET ( time, lat, lon )
+         long_name :	ncl_c2 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2TBF ( time, lat, lon )
+         long_name :	ncl_c2 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2_mixnuc1 ( time, lat, lon )
+         long_name :	ncl_c2 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2_sfcsiz3 ( time, lat, lon )
+         long_name :	ncl_c2 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2_sfcsiz4 ( time, lat, lon )
+         long_name :	ncl_c2 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c2_sfgaex2 ( time, lat, lon )
+         long_name :	ncl_c2 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c3 ( time, lev, lat, lon )
+         long_name :	ncl_c3 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float ncl_c3DDF ( time, lat, lon )
+         long_name :	ncl_c3 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c3GVF ( time, lat, lon )
+         long_name :	ncl_c3 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c3SFSBC ( time, lat, lon )
+         long_name :	ncl_c3 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c3SFSBS ( time, lat, lon )
+         long_name :	ncl_c3 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c3SFSIC ( time, lat, lon )
+         long_name :	ncl_c3 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c3SFSIS ( time, lat, lon )
+         long_name :	ncl_c3 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c3SFWET ( time, lat, lon )
+         long_name :	ncl_c3 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c3TBF ( time, lat, lon )
+         long_name :	ncl_c3 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float ncl_c3_mixnuc1 ( time, lat, lon )
+         long_name :	ncl_c3 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float num_a1 ( time, lev, lat, lon )
+         long_name :	num_a1 concentration
+         units :	 1/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float num_a1DDF ( time, lat, lon )
+         long_name :	num_a1 dry deposition flux at bottom (grav + turb)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a1GVF ( time, lat, lon )
+         long_name :	num_a1 gravitational dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a1SF ( time, lat, lon )
+         long_name :	num_a1 dust surface emission
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float num_a1SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a1SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a1SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a1SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a1SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a1TBF ( time, lat, lon )
+         long_name :	num_a1 turbulent dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a1_CLXF ( time, lat, lon )
+         long_name :	vertically intergrated external forcing for num_a1
+         units :	molec/cm2/s
+         cell_methods :	time: mean
+
+      float num_a1_SRF ( time, lat, lon )
+         long_name :	num_a1 in bottom layer
+         units :	 1/kg
+         cell_methods :	time: mean
+
+      float num_a1_XFRC ( time, lev, lat, lon )
+         long_name :	external forcing for num_a1
+         units :	molec/cm3/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float num_a1_mixnuc1 ( time, lat, lon )
+         long_name :	num_a1 dropmixnuc mixnuc column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a1_sfcoag1 ( time, lat, lon )
+         long_name :	num_a1 modal_aero coagulation column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a1_sfcsiz1 ( time, lat, lon )
+         long_name :	num_a1 calcsize number-adjust column source
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a1_sfcsiz2 ( time, lat, lon )
+         long_name :	num_a1 calcsize number-adjust column sink
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a1_sfcsiz3 ( time, lat, lon )
+         long_name :	num_a1 calcsize aitken-to-accum adjust column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a1_sfcsiz4 ( time, lat, lon )
+         long_name :	num_a1 calcsize accum-to-aitken adjust column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a1_sfgaex2 ( time, lat, lon )
+         long_name :	num_a1 gas-aerosol-exchange renaming column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a2 ( time, lev, lat, lon )
+         long_name :	num_a2 concentration
+         units :	 1/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float num_a2DDF ( time, lat, lon )
+         long_name :	num_a2 dry deposition flux at bottom (grav + turb)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a2GVF ( time, lat, lon )
+         long_name :	num_a2 gravitational dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a2SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a2SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a2SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a2SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a2SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a2TBF ( time, lat, lon )
+         long_name :	num_a2 turbulent dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a2_CLXF ( time, lat, lon )
+         long_name :	vertically intergrated external forcing for num_a2
+         units :	molec/cm2/s
+         cell_methods :	time: mean
+
+      float num_a2_SRF ( time, lat, lon )
+         long_name :	num_a2 in bottom layer
+         units :	 1/kg
+         cell_methods :	time: mean
+
+      float num_a2_XFRC ( time, lev, lat, lon )
+         long_name :	external forcing for num_a2
+         units :	molec/cm3/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float num_a2_mixnuc1 ( time, lat, lon )
+         long_name :	num_a2 dropmixnuc mixnuc column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a2_sfcoag1 ( time, lat, lon )
+         long_name :	num_a2 modal_aero coagulation column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a2_sfcsiz1 ( time, lat, lon )
+         long_name :	num_a2 calcsize number-adjust column source
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a2_sfcsiz2 ( time, lat, lon )
+         long_name :	num_a2 calcsize number-adjust column sink
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a2_sfcsiz3 ( time, lat, lon )
+         long_name :	num_a2 calcsize aitken-to-accum adjust column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a2_sfcsiz4 ( time, lat, lon )
+         long_name :	num_a2 calcsize accum-to-aitken adjust column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a2_sfgaex2 ( time, lat, lon )
+         long_name :	num_a2 gas-aerosol-exchange renaming column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a2_sfnnuc1 ( time, lat, lon )
+         long_name :	num_a2 modal_aero new particle nucleation column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a3 ( time, lev, lat, lon )
+         long_name :	num_a3 concentration
+         units :	 1/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float num_a3DDF ( time, lat, lon )
+         long_name :	num_a3 dry deposition flux at bottom (grav + turb)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a3GVF ( time, lat, lon )
+         long_name :	num_a3 gravitational dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a3SF ( time, lat, lon )
+         long_name :	num_a3 dust surface emission
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float num_a3SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a3SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a3SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a3SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a3SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a3TBF ( time, lat, lon )
+         long_name :	num_a3 turbulent dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_a3_SRF ( time, lat, lon )
+         long_name :	num_a3 in bottom layer
+         units :	 1/kg
+         cell_methods :	time: mean
+
+      float num_a3_mixnuc1 ( time, lat, lon )
+         long_name :	num_a3 dropmixnuc mixnuc column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a3_sfcsiz1 ( time, lat, lon )
+         long_name :	num_a3 calcsize number-adjust column source
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_a3_sfcsiz2 ( time, lat, lon )
+         long_name :	num_a3 calcsize number-adjust column sink
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c1 ( time, lev, lat, lon )
+         long_name :	num_c1 in cloud water
+         units :	 1/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float num_c1DDF ( time, lat, lon )
+         long_name :	num_c1 dry deposition flux at bottom (grav + turb)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c1GVF ( time, lat, lon )
+         long_name :	num_c1 gravitational dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c1SFSBC ( time, lat, lon )
+         long_name :	num_c1 wet deposition flux (belowcloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c1SFSBS ( time, lat, lon )
+         long_name :	num_c1 wet deposition flux (belowcloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c1SFSIC ( time, lat, lon )
+         long_name :	num_c1 wet deposition flux (incloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c1SFSIS ( time, lat, lon )
+         long_name :	num_c1 wet deposition flux (incloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c1SFWET ( time, lat, lon )
+         long_name :	num_c1 wet deposition flux at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c1TBF ( time, lat, lon )
+         long_name :	num_c1 turbulent dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c1_mixnuc1 ( time, lat, lon )
+         long_name :	num_c1 dropmixnuc mixnuc column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c1_sfcsiz1 ( time, lat, lon )
+         long_name :	num_c1 calcsize number-adjust column source
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c1_sfcsiz2 ( time, lat, lon )
+         long_name :	num_c1 calcsize number-adjust column sink
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c1_sfcsiz3 ( time, lat, lon )
+         long_name :	num_c1 calcsize aitken-to-accum adjust column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c1_sfcsiz4 ( time, lat, lon )
+         long_name :	num_c1 calcsize accum-to-aitken adjust column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c1_sfgaex2 ( time, lat, lon )
+         long_name :	num_c1 gas-aerosol-exchange renaming column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c2 ( time, lev, lat, lon )
+         long_name :	num_c2 in cloud water
+         units :	 1/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float num_c2DDF ( time, lat, lon )
+         long_name :	num_c2 dry deposition flux at bottom (grav + turb)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c2GVF ( time, lat, lon )
+         long_name :	num_c2 gravitational dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c2SFSBC ( time, lat, lon )
+         long_name :	num_c2 wet deposition flux (belowcloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c2SFSBS ( time, lat, lon )
+         long_name :	num_c2 wet deposition flux (belowcloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c2SFSIC ( time, lat, lon )
+         long_name :	num_c2 wet deposition flux (incloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c2SFSIS ( time, lat, lon )
+         long_name :	num_c2 wet deposition flux (incloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c2SFWET ( time, lat, lon )
+         long_name :	num_c2 wet deposition flux at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c2TBF ( time, lat, lon )
+         long_name :	num_c2 turbulent dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c2_mixnuc1 ( time, lat, lon )
+         long_name :	num_c2 dropmixnuc mixnuc column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c2_sfcsiz1 ( time, lat, lon )
+         long_name :	num_c2 calcsize number-adjust column source
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c2_sfcsiz2 ( time, lat, lon )
+         long_name :	num_c2 calcsize number-adjust column sink
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c2_sfcsiz3 ( time, lat, lon )
+         long_name :	num_c2 calcsize aitken-to-accum adjust column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c2_sfcsiz4 ( time, lat, lon )
+         long_name :	num_c2 calcsize accum-to-aitken adjust column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c2_sfgaex2 ( time, lat, lon )
+         long_name :	num_c2 gas-aerosol-exchange renaming column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c3 ( time, lev, lat, lon )
+         long_name :	num_c3 in cloud water
+         units :	 1/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float num_c3DDF ( time, lat, lon )
+         long_name :	num_c3 dry deposition flux at bottom (grav + turb)
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c3GVF ( time, lat, lon )
+         long_name :	num_c3 gravitational dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c3SFSBC ( time, lat, lon )
+         long_name :	num_c3 wet deposition flux (belowcloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c3SFSBS ( time, lat, lon )
+         long_name :	num_c3 wet deposition flux (belowcloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c3SFSIC ( time, lat, lon )
+         long_name :	num_c3 wet deposition flux (incloud, convective) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c3SFSIS ( time, lat, lon )
+         long_name :	num_c3 wet deposition flux (incloud, stratiform) at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c3SFWET ( time, lat, lon )
+         long_name :	num_c3 wet deposition flux at surface
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c3TBF ( time, lat, lon )
+         long_name :	num_c3 turbulent dry deposition flux
+         units :	 1/m2/s
+         cell_methods :	time: mean
+
+      float num_c3_mixnuc1 ( time, lat, lon )
+         long_name :	num_c3 dropmixnuc mixnuc column tendency
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c3_sfcsiz1 ( time, lat, lon )
+         long_name :	num_c3 calcsize number-adjust column source
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float num_c3_sfcsiz2 ( time, lat, lon )
+         long_name :	num_c3 calcsize number-adjust column sink
+         units :	#/m2/s
+         cell_methods :	time: mean
+
+      float pom_a1 ( time, lev, lat, lon )
+         long_name :	pom_a1 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float pom_a1DDF ( time, lat, lon )
+         long_name :	pom_a1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_a1GVF ( time, lat, lon )
+         long_name :	pom_a1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_a1SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_a1SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_a1SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_a1SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_a1SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_a1TBF ( time, lat, lon )
+         long_name :	pom_a1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_a1_2 ( time, lev, lat, lon )
+         long_name :	pom_a1 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float pom_a1_CLXF ( time, lat, lon )
+         long_name :	vertically intergrated external forcing for pom_a1
+         units :	molec/cm2/s
+         cell_methods :	time: mean
+
+      float pom_a1_SRF ( time, lat, lon )
+         long_name :	pom_a1 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float pom_a1_XFRC ( time, lev, lat, lon )
+         long_name :	external forcing for pom_a1
+         units :	molec/cm3/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float pom_a1_mixnuc1 ( time, lat, lon )
+         long_name :	pom_a1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_c1 ( time, lev, lat, lon )
+         long_name :	pom_c1 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float pom_c1DDF ( time, lat, lon )
+         long_name :	pom_c1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_c1GVF ( time, lat, lon )
+         long_name :	pom_c1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_c1SFSBC ( time, lat, lon )
+         long_name :	pom_c1 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_c1SFSBS ( time, lat, lon )
+         long_name :	pom_c1 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_c1SFSIC ( time, lat, lon )
+         long_name :	pom_c1 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_c1SFSIS ( time, lat, lon )
+         long_name :	pom_c1 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_c1SFWET ( time, lat, lon )
+         long_name :	pom_c1 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_c1TBF ( time, lat, lon )
+         long_name :	pom_c1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float pom_c1_mixnuc1 ( time, lat, lon )
+         long_name :	pom_c1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1 ( time, lev, lat, lon )
+         long_name :	so4_a1 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_a1DDF ( time, lat, lon )
+         long_name :	so4_a1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1GVF ( time, lat, lon )
+         long_name :	so4_a1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1TBF ( time, lat, lon )
+         long_name :	so4_a1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1_2 ( time, lev, lat, lon )
+         long_name :	so4_a1 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_a1_CLXF ( time, lat, lon )
+         long_name :	vertically intergrated external forcing for so4_a1
+         units :	molec/cm2/s
+         cell_methods :	time: mean
+
+      float so4_a1_SRF ( time, lat, lon )
+         long_name :	so4_a1 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float so4_a1_XFRC ( time, lev, lat, lon )
+         long_name :	external forcing for so4_a1
+         units :	molec/cm3/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_a1_mixnuc1 ( time, lat, lon )
+         long_name :	so4_a1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1_sfcoag1 ( time, lat, lon )
+         long_name :	so4_a1 modal_aero coagulation column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1_sfcsiz3 ( time, lat, lon )
+         long_name :	so4_a1 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1_sfcsiz4 ( time, lat, lon )
+         long_name :	so4_a1 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1_sfgaex1 ( time, lat, lon )
+         long_name :	so4_a1 gas-aerosol-exchange primary column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a1_sfgaex2 ( time, lat, lon )
+         long_name :	so4_a1 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2 ( time, lev, lat, lon )
+         long_name :	so4_a2 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_a2DDF ( time, lat, lon )
+         long_name :	so4_a2 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2GVF ( time, lat, lon )
+         long_name :	so4_a2 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2TBF ( time, lat, lon )
+         long_name :	so4_a2 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2_2 ( time, lev, lat, lon )
+         long_name :	so4_a2 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_a2_CLXF ( time, lat, lon )
+         long_name :	vertically intergrated external forcing for so4_a2
+         units :	molec/cm2/s
+         cell_methods :	time: mean
+
+      float so4_a2_SRF ( time, lat, lon )
+         long_name :	so4_a2 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float so4_a2_XFRC ( time, lev, lat, lon )
+         long_name :	external forcing for so4_a2
+         units :	molec/cm3/s
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_a2_mixnuc1 ( time, lat, lon )
+         long_name :	so4_a2 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2_sfcoag1 ( time, lat, lon )
+         long_name :	so4_a2 modal_aero coagulation column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2_sfcsiz3 ( time, lat, lon )
+         long_name :	so4_a2 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2_sfcsiz4 ( time, lat, lon )
+         long_name :	so4_a2 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2_sfgaex1 ( time, lat, lon )
+         long_name :	so4_a2 gas-aerosol-exchange primary column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2_sfgaex2 ( time, lat, lon )
+         long_name :	so4_a2 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a2_sfnnuc1 ( time, lat, lon )
+         long_name :	so4_a2 modal_aero new particle nucleation column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3 ( time, lev, lat, lon )
+         long_name :	so4_a3 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_a3DDF ( time, lat, lon )
+         long_name :	so4_a3 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3GVF ( time, lat, lon )
+         long_name :	so4_a3 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3TBF ( time, lat, lon )
+         long_name :	so4_a3 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3_2 ( time, lev, lat, lon )
+         long_name :	so4_a3 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_a3_SRF ( time, lat, lon )
+         long_name :	so4_a3 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float so4_a3_mixnuc1 ( time, lat, lon )
+         long_name :	so4_a3 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_a3_sfgaex1 ( time, lat, lon )
+         long_name :	so4_a3 gas-aerosol-exchange primary column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1 ( time, lev, lat, lon )
+         long_name :	so4_c1 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_c1AQH2SO4 ( time, lat, lon )
+         long_name :	so4_c1 aqueous phase chemistry
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1AQSO4 ( time, lat, lon )
+         long_name :	so4_c1 aqueous phase chemistry
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1DDF ( time, lat, lon )
+         long_name :	so4_c1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1GVF ( time, lat, lon )
+         long_name :	so4_c1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1SFSBC ( time, lat, lon )
+         long_name :	so4_c1 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1SFSBS ( time, lat, lon )
+         long_name :	so4_c1 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1SFSIC ( time, lat, lon )
+         long_name :	so4_c1 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1SFSIS ( time, lat, lon )
+         long_name :	so4_c1 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1SFWET ( time, lat, lon )
+         long_name :	so4_c1 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1TBF ( time, lat, lon )
+         long_name :	so4_c1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1_mixnuc1 ( time, lat, lon )
+         long_name :	so4_c1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1_sfcsiz3 ( time, lat, lon )
+         long_name :	so4_c1 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1_sfcsiz4 ( time, lat, lon )
+         long_name :	so4_c1 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c1_sfgaex2 ( time, lat, lon )
+         long_name :	so4_c1 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2 ( time, lev, lat, lon )
+         long_name :	so4_c2 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_c2AQH2SO4 ( time, lat, lon )
+         long_name :	so4_c2 aqueous phase chemistry
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2AQSO4 ( time, lat, lon )
+         long_name :	so4_c2 aqueous phase chemistry
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2DDF ( time, lat, lon )
+         long_name :	so4_c2 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2GVF ( time, lat, lon )
+         long_name :	so4_c2 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2SFSBC ( time, lat, lon )
+         long_name :	so4_c2 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2SFSBS ( time, lat, lon )
+         long_name :	so4_c2 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2SFSIC ( time, lat, lon )
+         long_name :	so4_c2 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2SFSIS ( time, lat, lon )
+         long_name :	so4_c2 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2SFWET ( time, lat, lon )
+         long_name :	so4_c2 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2TBF ( time, lat, lon )
+         long_name :	so4_c2 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2_mixnuc1 ( time, lat, lon )
+         long_name :	so4_c2 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2_sfcsiz3 ( time, lat, lon )
+         long_name :	so4_c2 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2_sfcsiz4 ( time, lat, lon )
+         long_name :	so4_c2 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c2_sfgaex2 ( time, lat, lon )
+         long_name :	so4_c2 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3 ( time, lev, lat, lon )
+         long_name :	so4_c3 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float so4_c3AQH2SO4 ( time, lat, lon )
+         long_name :	so4_c3 aqueous phase chemistry
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3AQSO4 ( time, lat, lon )
+         long_name :	so4_c3 aqueous phase chemistry
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3DDF ( time, lat, lon )
+         long_name :	so4_c3 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3GVF ( time, lat, lon )
+         long_name :	so4_c3 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3SFSBC ( time, lat, lon )
+         long_name :	so4_c3 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3SFSBS ( time, lat, lon )
+         long_name :	so4_c3 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3SFSIC ( time, lat, lon )
+         long_name :	so4_c3 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3SFSIS ( time, lat, lon )
+         long_name :	so4_c3 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3SFWET ( time, lat, lon )
+         long_name :	so4_c3 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3TBF ( time, lat, lon )
+         long_name :	so4_c3 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float so4_c3_mixnuc1 ( time, lat, lon )
+         long_name :	so4_c3 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1 ( time, lev, lat, lon )
+         long_name :	soa_a1 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float soa_a1DDF ( time, lat, lon )
+         long_name :	soa_a1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1GVF ( time, lat, lon )
+         long_name :	soa_a1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1TBF ( time, lat, lon )
+         long_name :	soa_a1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1_2 ( time, lev, lat, lon )
+         long_name :	soa_a1 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float soa_a1_SRF ( time, lat, lon )
+         long_name :	soa_a1 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float soa_a1_mixnuc1 ( time, lat, lon )
+         long_name :	soa_a1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1_sfcoag1 ( time, lat, lon )
+         long_name :	soa_a1 modal_aero coagulation column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1_sfcsiz3 ( time, lat, lon )
+         long_name :	soa_a1 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1_sfcsiz4 ( time, lat, lon )
+         long_name :	soa_a1 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1_sfgaex1 ( time, lat, lon )
+         long_name :	soa_a1 gas-aerosol-exchange primary column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a1_sfgaex2 ( time, lat, lon )
+         long_name :	soa_a1 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2 ( time, lev, lat, lon )
+         long_name :	soa_a2 concentration
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float soa_a2DDF ( time, lat, lon )
+         long_name :	soa_a2 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2GVF ( time, lat, lon )
+         long_name :	soa_a2 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2SFSBC ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2SFSBS ( time, lat, lon )
+         long_name :	Wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2SFSIC ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2SFSIS ( time, lat, lon )
+         long_name :	Wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2SFWET ( time, lat, lon )
+         long_name :	Wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2TBF ( time, lat, lon )
+         long_name :	soa_a2 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2_2 ( time, lev, lat, lon )
+         long_name :	soa_a2 squared
+         units :	kg2/kg2
+         mdims :	1
+         cell_methods :	time: mean
+
+      float soa_a2_SRF ( time, lat, lon )
+         long_name :	soa_a2 in bottom layer
+         units :	kg/kg
+         cell_methods :	time: mean
+
+      float soa_a2_mixnuc1 ( time, lat, lon )
+         long_name :	soa_a2 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2_sfcoag1 ( time, lat, lon )
+         long_name :	soa_a2 modal_aero coagulation column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2_sfcsiz3 ( time, lat, lon )
+         long_name :	soa_a2 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2_sfcsiz4 ( time, lat, lon )
+         long_name :	soa_a2 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2_sfgaex1 ( time, lat, lon )
+         long_name :	soa_a2 gas-aerosol-exchange primary column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_a2_sfgaex2 ( time, lat, lon )
+         long_name :	soa_a2 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1 ( time, lev, lat, lon )
+         long_name :	soa_c1 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float soa_c1DDF ( time, lat, lon )
+         long_name :	soa_c1 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1GVF ( time, lat, lon )
+         long_name :	soa_c1 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1SFSBC ( time, lat, lon )
+         long_name :	soa_c1 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1SFSBS ( time, lat, lon )
+         long_name :	soa_c1 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1SFSIC ( time, lat, lon )
+         long_name :	soa_c1 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1SFSIS ( time, lat, lon )
+         long_name :	soa_c1 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1SFWET ( time, lat, lon )
+         long_name :	soa_c1 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1TBF ( time, lat, lon )
+         long_name :	soa_c1 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1_mixnuc1 ( time, lat, lon )
+         long_name :	soa_c1 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1_sfcsiz3 ( time, lat, lon )
+         long_name :	soa_c1 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1_sfcsiz4 ( time, lat, lon )
+         long_name :	soa_c1 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c1_sfgaex2 ( time, lat, lon )
+         long_name :	soa_c1 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2 ( time, lev, lat, lon )
+         long_name :	soa_c2 in cloud water
+         units :	kg/kg
+         mdims :	1
+         cell_methods :	time: mean
+
+      float soa_c2DDF ( time, lat, lon )
+         long_name :	soa_c2 dry deposition flux at bottom (grav + turb)
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2GVF ( time, lat, lon )
+         long_name :	soa_c2 gravitational dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2SFSBC ( time, lat, lon )
+         long_name :	soa_c2 wet deposition flux (belowcloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2SFSBS ( time, lat, lon )
+         long_name :	soa_c2 wet deposition flux (belowcloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2SFSIC ( time, lat, lon )
+         long_name :	soa_c2 wet deposition flux (incloud, convective) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2SFSIS ( time, lat, lon )
+         long_name :	soa_c2 wet deposition flux (incloud, stratiform) at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2SFWET ( time, lat, lon )
+         long_name :	soa_c2 wet deposition flux at surface
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2TBF ( time, lat, lon )
+         long_name :	soa_c2 turbulent dry deposition flux
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2_mixnuc1 ( time, lat, lon )
+         long_name :	soa_c2 dropmixnuc mixnuc column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2_sfcsiz3 ( time, lat, lon )
+         long_name :	soa_c2 calcsize aitken-to-accum adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2_sfcsiz4 ( time, lat, lon )
+         long_name :	soa_c2 calcsize accum-to-aitken adjust column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float soa_c2_sfgaex2 ( time, lat, lon )
+         long_name :	soa_c2 gas-aerosol-exchange renaming column tendency
+         units :	kg/m2/s
+         cell_methods :	time: mean
+
+      float wat_a1 ( time, lev, lat, lon )
+         long_name :	aerosol water, interstitial, mode 01
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float wat_a2 ( time, lev, lat, lon )
+         long_name :	aerosol water, interstitial, mode 02
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      float wat_a3 ( time, lev, lat, lon )
+         long_name :	aerosol water, interstitial, mode 03
+         units :	m
+         mdims :	1
+         cell_methods :	time: mean
+
+      double P0 ( ncl_scalar )
+         long_name :	reference pressure
+         units :	Pa
+
+      double hyai ( ilev )
+         long_name :	hybrid A coefficient at layer interfaces
+
+      double hyam ( lev )
+         long_name :	hybrid A coefficient at layer midpoints
+
+      double hybi ( ilev )
+         long_name :	hybrid B coefficient at layer interfaces
+
+      double hybm ( lev )
+         long_name :	hybrid B coefficient at layer midpoints
+
+      double ilev ( ilev )
+         long_name :	hybrid level at interfaces (1000*(A+B))
+         units :	hPa
+         positive :	down
+         standard_name :	atmosphere_hybrid_sigma_pressure_coordinate
+         formula_terms :	a: hyai b: hybi p0: P0 ps: PS
+
+      integer nbdate ( ncl_scalar )
+         long_name :	base date (YYYYMMDD)
+

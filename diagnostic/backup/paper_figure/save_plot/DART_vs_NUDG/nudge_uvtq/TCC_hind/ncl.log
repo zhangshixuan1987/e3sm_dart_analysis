@@ -1,0 +1,5668 @@
+nohup: ignoring input
+input in flex scanner failed
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	0.0284552 18.4872
+(0)	0.187417 13.1937
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+  _FillValue :	9.96921e+36
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	0.0284552 18.4872
+(0)	0.176358 14.2059
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+  _FillValue :	9.96921e+36
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	0.0284552 18.4872
+(0)	0.0315332 10.4529
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+  _FillValue :	9.96921e+36
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[31] x [96] x [144]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	9.96921e+36
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	186.861 259.844
+(0)	176.357 257.044
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 6
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	186.861 259.844
+(0)	195.94 253.127
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 6
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	186.861 259.844
+(0)	200.023 263.283
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 6
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 110.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	0.0160588 22.8208
+(0)	0.0623647 17.6944
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	0.0160588 22.8208
+(0)	0.0236753 19.5341
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	0.0160588 22.8208
+(0)	0.0103915 14.6822
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	166.817 251.882
+(0)	176.254 252.833
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 6
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	166.817 251.882
+(0)	181.015 250.065
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 6
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	166.817 251.882
+(0)	193.412 255.889
+
+Variable: pncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 6
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 7564 bytes
+            1891 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 61]
+Coordinates: 
+            time: [   0..  30]
+            lon: [ 150.. 300]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	0.0492846 25.1813
+(0)	0.619651 16.5847
+
+Variable: pncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	0.0492846 25.1813
+(0)	0.768905 19.3192
+
+Variable: pncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	0.0492846 25.1813
+(0)	0.351195 12.4753
+
+Variable: pncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	249 31
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 3
+  cell_methods :	time: mean
+  long_name :	Convective precipitation rate (liq + ice)
+  units :	m/s
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 4
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  units :	m/s
+  long_name :	Convective precipitation rate (liq + ice)
+  cell_methods :	time: mean
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	185.063 288.325
+(0)	162.436 287.206
+
+Variable: pncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 6
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	185.063 288.325
+(0)	181.465 287.703
+
+Variable: pncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 6
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	124 15
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [  31..  61]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	185.063 288.325
+(0)	199.188 293.562
+
+Variable: pncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 6
+  average_op_ncl :	dim_avg_wgt_n over dimension(s): lat
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+  _FillValue :	-9.99e+08
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+(0)	80 10
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+
+Variable: datestr
+Type: integer
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[31]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	gregorian
+(0)	20110101
+(1)	20110102
+(2)	20110103
+(3)	20110104
+(4)	20110105
+(5)	20110106
+(6)	20110107
+(7)	20110108
+(8)	20110109
+(9)	20110110
+(10)	20110111
+(11)	20110112
+(12)	20110113
+(13)	20110114
+(14)	20110115
+(15)	20110116
+(16)	20110117
+(17)	20110118
+(18)	20110119
+(19)	20110120
+(20)	20110121
+(21)	20110122
+(22)	20110123
+(23)	20110124
+(24)	20110125
+(25)	20110126
+(26)	20110127
+(27)	20110128
+(28)	20110129
+(29)	20110130
+(30)	20110131
+
+Variable: obsdat
+Type: float
+Total Size: 1714176 bytes
+            428544 values
+Number of Dimensions: 3
+Dimensions and sizes:	[time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [77066..77096]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 13
+  cell_measures :	area: area
+  actual_range :	( 78.87619, 392.5756 )
+  dataset :	NOAA Daily OLR TCDR (PSD)
+  missing_value :	-9.99e+08
+  parent_stat :	Individual Obs
+  level_desc :	TOA
+  statistic :	Mean
+  var_desc :	Outgoing Longwave Radiation
+  valid_range :	(   50,  500 )
+  units :	W m-2
+  standard_name :	toa_outgoing_longwave_flux
+  long_name :	outgoing longwave radiation
+  _FillValue :	-9.99e+08
+
+Variable: pxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean
+
+Variable: wxcre0300
+Type: float
+Total Size: 137134080 bytes
+            34283520 values
+Number of Dimensions: 4
+Dimensions and sizes:	[ncl_join | 80] x [time | 31] x [lat | 96] x [lon | 144]
+Coordinates: 
+            time: [   0..  30]
+            lat: [ -90..  90]
+            lon: [   0..357.5]
+Number Of Attributes: 4
+  cell_methods :	time: mean
+  long_name :	Upwelling longwave flux at top of model
+  units :	W/m2
+  Sampling_Sequence :	rad_lwsw
+
+Variable: encorr
+Type: float
+Total Size: 320 bytes
+            80 values
+Number of Dimensions: 1
+Dimensions and sizes:	[ncl_join | 80]
+Coordinates: 
+Number Of Attributes: 1
+  long_name :	pattern correlation (centered)
+
+Variable: wncreplt
+Type: float
+Total Size: 10044 bytes
+            2511 values
+Number of Dimensions: 2
+Dimensions and sizes:	[time | 31] x [lon | 81]
+Coordinates: 
+            time: [   0..  30]
+            lon: [  60.. 260]
+Number Of Attributes: 5
+  average_op_ncl :	dim_avg_n over dimension(s): ncl_join
+  Sampling_Sequence :	rad_lwsw
+  units :	W/m2
+  long_name :	Upwelling longwave flux at top of model
+  cell_methods :	time: mean

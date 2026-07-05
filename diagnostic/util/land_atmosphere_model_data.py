@@ -20,6 +20,7 @@ class ModelDataReader:
         self.region = self._define_region(regnam)
         self.exp_dict = self._extract_exp_info(exp_base, base_path)
 
+    @staticmethod
     def compute_total_soil_moisture(ds, h2osoi_var='H2OSOI', dzsoi_var='DZSOI') -> xr.DataArray:
         """
         Compute total column soil moisture by integrating volumetric H2OSOI over depth.
@@ -42,6 +43,7 @@ class ModelDataReader:
 
         return total_sm
 
+    @staticmethod
     def compute_swc_top_depth(ds: xr.Dataset, h2osoi_var='H2OSOI', dzsoi_var='DZSOI', depth_threshold=0.05) -> xr.DataArray:
         """
         Compute volumetric soil water content averaged over the top soil layers 

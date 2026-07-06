@@ -21,6 +21,18 @@ Active data-assimilation diagnostic workflow drivers live in `jupyter/`:
 3. `analysis_da__obs_compare_multilevel_diagnostics.ipynb` - compare obs_diag diagnostics with multiple pressure levels per experiment panel.
 4. `analysis_da__obs_profile_diagnostics.ipynb` - plot vertical profile obs_diag diagnostics; switch modes with `PROFILE_MODE`.
 
+Initial-land diagnostics follow the same notebook-driver layout:
+
+1. `jupyter/initial_land__plot_soil_moisture_distribution.ipynb` drives the active soil-moisture map workflow.
+2. `configs/initial_land_experiment_config.py` stores default paths, experiment dictionaries, and plotting options.
+3. `util/initial_land_model_data.py` and `util/initial_land_observation_data.py` hold reusable readers.
+4. `scripts/initial_land_column_to_gridcell_exporter.py` and `scripts/initial_land_regrid_restart.bash` contain restart-processing command-line helpers.
+5. Regrid reference grids and map files are expected under `/compyfs/zhan391/v3_dart_cda_scratch/reference/regrid_maps/` by default.
+6. Initial-land support files such as `dzsoi_elm.nc` and `landmask_1x1.nc` are generated under `/compyfs/zhan391/v3_dart_cda_scratch/reference/lnd_sea_mask/` when missing.
+7. Generated initial-land NetCDF/log outputs live under `/compyfs/www/zhan391/e3sm_dart/diag_out/data/initial_land/`; generated figures live under `/compyfs/www/zhan391/e3sm_dart/diag_out/figure/initial_land/`.
+
+Legacy initial-land notebooks are kept in `jupyter/archive/`.
+
 ## Configs
 
 `configs/` contains experiment dictionaries and configuration-building helpers

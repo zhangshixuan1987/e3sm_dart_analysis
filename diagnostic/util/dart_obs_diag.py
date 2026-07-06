@@ -307,10 +307,10 @@ class DartObsDiagReader:
                 varname = f"{var_dict['name']}_guess"
                 if varname in ds.variables:
                     base = ds[varname].values  # [time, copy, level, region]
-                    sprd = base[0, ind_vars, :, ind_reg]
-                    rmse = base[0, ind_rmse, :, ind_reg]
-                    npos = base[0, ind_npos, :, ind_reg]
-                    nuse = base[0, ind_nuse, :, ind_reg]
+                    sprd = base[:, ind_vars, :, ind_reg]
+                    rmse = base[:, ind_rmse, :, ind_reg]
+                    npos = base[:, ind_npos, :, ind_reg]
+                    nuse = base[:, ind_nuse, :, ind_reg]
 
             elif dtype == "VPguess":
                 varname = f"{var_dict['name']}_{var_dict['type2']}"

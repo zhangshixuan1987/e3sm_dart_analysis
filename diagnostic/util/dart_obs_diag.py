@@ -48,6 +48,9 @@ class DartObsDiagReader:
                 raise ValueError(f"Missing required config keys: {missing}")
 
         self.config = dict(config)
+        self.dask_chunks = dict(self.config.get("dask_chunks", {}))
+        self.return_dask = bool(self.config.get("return_dask", False))
+        self.persist_arrays = bool(self.config.get("persist_arrays", False))
 
         # Region tuples: [(lat_lo,lat_hi), (lon_lo,lon_hi)] or [(lat_lo,lat_hi),(lon_lo,lon_hi),(z_lo,z_hi)]
         default_regions = {
@@ -58,6 +61,21 @@ class DartObsDiagReader:
             'NA': {"name": "North America",       "region": [( 25,  55), (235, 295), (0, 120000)]},
         }
         self.region_dict = self.config.get("region_dict", default_regions)
+
+    def _chunk_existing_dims(self, ds):
+        chunks = {dim: size for dim, size in self.dask_chunks.items() if dim in ds.dims}
+        return ds.chunk(chunks) if chunks else ds
+
+    def _open_mfdataset(self, rpath, *, decode_times=False):
+        ds = xc.open_mfdataset(rpath, decode_times=decode_times, chunks={})
+        return self._chunk_existing_dims(ds)
+
+    def _maybe_return_array(self, arr):
+        if self.return_dask and hasattr(arr, "dims"):
+            return arr.persist() if self.persist_arrays else arr
+        if hasattr(arr, "compute"):
+            return arr.compute().values
+        return np.asarray(arr)
 
     # ------------------------------------------------------------------ #
     # Unified resolver
@@ -266,7 +284,9 @@ class DartObsDiagReader:
             arr = tup[0] if isinstance(tup, tuple) else np.asarray(tup)
             return int(arr[0]) if arr.size else None
 
-        with xc.open_mfdataset(rpath, decode_times=False, chunks={}) as ds:
+        ds = self._open_mfdataset(rpath, decode_times=False)
+        close_ds = not self.return_dask
+        try:
             time = ds["time"].values
 
             mlevel       = _opt(ds, "mlevel")
@@ -306,25 +326,28 @@ class DartObsDiagReader:
             if dtype == "guess":
                 varname = f"{var_dict['name']}_guess"
                 if varname in ds.variables:
-                    base = ds[varname].values  # [time, copy, level, region]
-                    sprd = base[:, ind_vars, :, ind_reg]
-                    rmse = base[:, ind_rmse, :, ind_reg]
-                    npos = base[:, ind_npos, :, ind_reg]
-                    nuse = base[:, ind_nuse, :, ind_reg]
+                    base = ds[varname]  # [time, copy, level, region]
+                    sprd = self._maybe_return_array(base[:, ind_vars, :, ind_reg])
+                    rmse = self._maybe_return_array(base[:, ind_rmse, :, ind_reg])
+                    npos = self._maybe_return_array(base[:, ind_npos, :, ind_reg])
+                    nuse = self._maybe_return_array(base[:, ind_nuse, :, ind_reg])
 
             elif dtype == "VPguess":
                 varname = f"{var_dict['name']}_{var_dict['type2']}"
                 if varname in ds.variables:
-                    base = ds[varname].values  # [copy, level, region]
-                    sprd = base[ind_vars, :, ind_reg]
-                    rmse = base[ind_rmse, :, ind_reg]
-                    npos = base[ind_npos, :, ind_reg]
-                    nuse = base[ind_nuse, :, ind_reg]
+                    base = ds[varname]  # [copy, level, region]
+                    sprd = self._maybe_return_array(base[ind_vars, :, ind_reg])
+                    rmse = self._maybe_return_array(base[ind_rmse, :, ind_reg])
+                    npos = self._maybe_return_array(base[ind_npos, :, ind_reg])
+                    nuse = self._maybe_return_array(base[ind_nuse, :, ind_reg])
 
             elif dtype == "guess_RankHist":
                 varname = f"{var_dict['name']}_{var_dict['type3']}"
                 if varname in ds.variables:
-                    hrank = ds[varname].values[0, :, :, ind_reg]
+                    hrank = self._maybe_return_array(ds[varname][0, :, :, ind_reg])
+        finally:
+            if close_ds:
+                ds.close()
 
         return (time, plevel, plevel_edges, mlevel, mlevel_edges,
                 hlevel, hlevel_edges, sprd, rmse, npos, nuse, hrank)
@@ -364,9 +387,11 @@ class DartObsDiagReader:
             )
 
             # rejection (%)
-            if (isinstance(npos, np.ndarray) and isinstance(nuse, np.ndarray)
-                    and npos.size > 0 and nuse.size > 0):
-                rejection = np.where(npos > 0, 100.0 - (nuse * 100.0 / npos), np.nan)
+            if hasattr(npos, "size") and hasattr(nuse, "size") and npos.size > 0 and nuse.size > 0:
+                if isinstance(npos, xr.DataArray) or isinstance(nuse, xr.DataArray):
+                    rejection = xr.where(npos > 0, 100.0 - (nuse * 100.0 / npos), np.nan)
+                else:
+                    rejection = np.where(npos > 0, 100.0 - (nuse * 100.0 / npos), np.nan)
             else:
                 rejection = np.array([])
 

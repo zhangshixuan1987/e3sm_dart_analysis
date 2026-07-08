@@ -1,3 +1,5 @@
+"""Shared Dask and lazy xarray helpers for diagnostic workflows."""
+
 from pathlib import Path
 import sys
 from typing import Any, Mapping, Optional
@@ -73,24 +75,35 @@ def merge_chunks(
     return merged
 
 
+def _chunk_existing_dims(obj, chunks: Optional[Mapping[str, int]] = None):
+    selected = {
+        dim: size
+        for dim, size in merge_chunks(chunks).items()
+        if dim in obj.dims
+    }
+    return obj.chunk(selected) if selected else obj
+
+
 def open_dataset_lazy(path, *, chunks: Optional[Mapping[str, int]] = None, **kwargs):
-    """Open one NetCDF file with consistent lazy chunking."""
+    """Open one NetCDF file lazily and chunk only dimensions it actually has."""
     import xarray as xr
 
-    return xr.open_dataset(path, chunks=merge_chunks(chunks), **kwargs)
+    ds = xr.open_dataset(path, chunks={}, **kwargs)
+    return _chunk_existing_dims(ds, chunks)
 
 
 def open_mfdataset_lazy(paths, *, chunks: Optional[Mapping[str, int]] = None, **kwargs):
-    """Open many NetCDF files with Dask-friendly defaults."""
+    """Open many NetCDF files lazily and chunk only dimensions they actually have."""
     import xarray as xr
 
     defaults = {
         "combine": "by_coords",
         "parallel": True,
-        "chunks": merge_chunks(chunks),
+        "chunks": {},
     }
     defaults.update(kwargs)
-    return xr.open_mfdataset(paths, **defaults)
+    ds = xr.open_mfdataset(paths, **defaults)
+    return _chunk_existing_dims(ds, chunks)
 
 
 def persist_if_dask(obj, enabled: bool = True):

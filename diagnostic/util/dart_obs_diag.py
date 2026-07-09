@@ -412,10 +412,14 @@ class DartObsDiagReader:
                 "time_unit": time_unit,
                 "rmse": rmse,
                 "spread": sprd,
+                "nused": nuse,
+                "npos": npos,
                 "rejection": rejection,
                 "histrank": hrank,
                 "rmse_str": "RMSE",
                 "spread_str": "Total Spread",
+                "nused_str": "Number Assimilated",
+                "npos_str": "Number Processed",
                 "rejection_str": "Data Rejection(%)",
                 "lev": lev,
                 "levp": levp,
@@ -527,30 +531,30 @@ class DartObsDiagReader:
         rpath = os.path.join(path, file)
         print(f"[READ obs_seq] {rpath}")
 
-        with xc.open_mfdataset(rpath, decode_times=False, chunks={}) as dr:
+        with self._open_mfdataset(rpath, decode_times=False) as dr:
             # packed location or separate vars
             if "location" in dr.variables:
-                location = dr["location"].values
+                location = dr["location"].compute().values
                 lon = location[:, 0]
                 lat = location[:, 1]
                 lev = location[:, 2]
             else:
-                lon = dr["lon"].values if "lon" in dr.variables else dr["longitude"].values
-                lat = dr["lat"].values if "lat" in dr.variables else dr["latitude"].values
-                lev = dr["lev"].values if "lev" in dr.variables else dr.get(
+                lon = dr["lon"].compute().values if "lon" in dr.variables else dr["longitude"].compute().values
+                lat = dr["lat"].compute().values if "lat" in dr.variables else dr["latitude"].compute().values
+                lev = dr["lev"].compute().values if "lev" in dr.variables else dr.get(
                     "level", xr.DataArray(np.full_like(lon, np.nan))
-                ).values
+                ).compute().values
 
-            time       = dr["time"].values
-            which_vert = dr["which_vert"].values if "which_vert" in dr.variables else dr.get(
+            time       = dr["time"].compute().values
+            which_vert = dr["which_vert"].compute().values if "which_vert" in dr.variables else dr.get(
                 "WhichVert", xr.DataArray(np.full_like(time, -2))
-            ).values
+            ).compute().values
 
             # metadata / channels
             CopyMetaData = self._norm_str(dr["CopyMetaData"].values)
-            observations = dr["observations"].values
+            observations = dr["observations"].compute().values
             QCMetaData   = self._norm_str(dr["QCMetaData"].values)
-            qc           = dr["qc"].values
+            qc           = dr["qc"].compute().values
 
             copy_name = var_dict.get("CopyString", "observation")
             qc_name   = var_dict.get("QCString", "DART quality control")
@@ -564,9 +568,9 @@ class DartObsDiagReader:
             # observation type bookkeeping
             ObsTypesMetaData = self._norm_str(dr["ObsTypesMetaData"].values)
             ObsTypes         = dr["ObsTypes"].values
-            ObsIndex         = dr["ObsIndex"].values
-            obs_type         = dr["obs_type"].values
-            obs_keys         = dr["obs_keys"].values
+            ObsIndex         = dr["ObsIndex"].compute().values
+            obs_type         = dr["obs_type"].compute().values
+            obs_keys         = dr["obs_keys"].compute().values
 
             # region filter (lon/lat always; z if finite)
             reg_xyz = np.array(str(var_dict.get("region", "0 360 -90 90 -1e36 1e36")).split(), dtype=float)

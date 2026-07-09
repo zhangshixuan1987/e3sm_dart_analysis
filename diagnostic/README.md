@@ -3,6 +3,26 @@
 This directory contains diagnostic notebooks, helper scripts, legacy NCL workflows,
 and generated figures used for E3SM-DART analysis.
 
+## Repository Layout Convention
+
+Going forward on this branch, keep workflow code organized by role:
+
+- `jupyter/` contains driver notebooks only. Notebooks should configure a run,
+  call reusable modules, inspect intermediate results, and make figures; avoid
+  adding importable helper modules or large reusable classes here.
+- `util/` contains reusable helper/library modules, such as
+  `util/dask_helpers.py`, `util/dart_obs_diag.py`, and data-reader or analysis
+  classes shared by multiple notebooks or scripts.
+- `scripts/` contains runnable workflow scripts and CLI-style batch drivers.
+  Use this for command-line entry points, batch processing wrappers, and
+  repeatable production runs that should not require opening a notebook.
+- `configs/` contains experiment dictionaries and configuration-building
+  helpers shared by notebooks, utilities, and scripts.
+
+If a notebook cell grows into reusable logic, move that logic into `util/`. If a
+workflow needs to run unattended or from a scheduler, put that entry point in
+`scripts/` and keep the notebook as an interactive driver or demonstration.
+
 ## Diagnostic Notebooks
 
 Active land-atmosphere workflow drivers live in `jupyter/`:

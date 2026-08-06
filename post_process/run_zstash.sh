@@ -1,4 +1,5 @@
 #!/bin/bash -l 
+ulimit -S -c 0
 #SBATCH -A phy220062      # Allocation name 
 #SBATCH --nodes=1         # Total # of nodes (must be 1 for serial job)
 #SBATCH --ntasks=128      # Total # of MPI tasks (should be 1 for serial job) 

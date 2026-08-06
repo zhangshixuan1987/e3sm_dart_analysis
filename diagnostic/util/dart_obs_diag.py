@@ -287,7 +287,9 @@ class DartObsDiagReader:
         ds = self._open_mfdataset(rpath, decode_times=False)
         close_ds = not self.return_dask
         try:
-            time = ds["time"].values
+            time_var = ds["time"]
+            time = time_var.values
+            self._last_time_unit = time_var.attrs.get("units")
 
             mlevel       = _opt(ds, "mlevel")
             mlevel_edges = _opt(ds, "mlevel_edges")
@@ -376,7 +378,7 @@ class DartObsDiagReader:
             if "file_templates" in self.config:
                 path, file = self.resolve_file_path(subrun, diag_set=diag_set)
                 left = date.split("-")[0]
-                time_unit = f"hours since {left[:4]}-{left[4:6]}-{left[6:8]} 00:00:00"
+                time_unit = f"days since {left[:4]}-{left[4:6]}-{left[6:8]} 00:00:00"
             else:
                 path, file = self.resolve_dart_file_path(subrun, exp, diag_set, date)
                 time_unit = f"days since {date[:4]}-{date[4:6]}-{date[6:8]}"
@@ -385,6 +387,7 @@ class DartObsDiagReader:
              hlev, hlev_edges, sprd, rmse, npos, nuse, hrank) = self.read_dart_obs_diag(
                 region_long, var, dtype, var_dict, date, path, file
             )
+            time_unit = getattr(self, "_last_time_unit", None) or time_unit
 
             # rejection (%)
             if hasattr(npos, "size") and hasattr(nuse, "size") and npos.size > 0 and nuse.size > 0:

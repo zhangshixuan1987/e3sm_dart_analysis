@@ -1,4 +1,5 @@
 #!/bin/bash
+ulimit -S -c 0
 source /share/apps/E3SM/conda_envs/load_latest_e3sm_unified_compy.sh
 src_grid_name="ne11np4"
 src_scrip_file="./grid/${src_grid_name}_scrip.nc"

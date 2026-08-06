@@ -1,4 +1,5 @@
 #!/bin/bash -fe
+ulimit -S -c 0
 
 # E3SM Water Cycle v2 run_e3sm script template.
 #

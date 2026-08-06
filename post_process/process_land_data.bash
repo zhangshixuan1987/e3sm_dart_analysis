@@ -1,4 +1,5 @@
 #!/bin/bash
+ulimit -S -c 0
 #SBATCH --job-name=elm_regrid
 #SBATCH --account=e3sm
 #SBATCH --partition=compute

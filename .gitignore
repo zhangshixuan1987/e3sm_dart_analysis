@@ -27,6 +27,7 @@ env/
 *.log
 *.out
 *.err
+core.*
 nohup.out
 slurm-*.out
 slurm-*.err

@@ -1,4 +1,5 @@
 #!/bin/bash
+ulimit -S -c 0
 set -euo pipefail
 
 data_path="/compyfs/zhan391/acme_init/Observations"

@@ -1,4 +1,5 @@
 #!/bin/bash
+ulimit -S -c 0
 
 data_path="/compyfs/zhan391/acme_init/Observations"
 obsname="GPCP"

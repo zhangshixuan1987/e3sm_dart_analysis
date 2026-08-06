@@ -1,4 +1,5 @@
 #!/bin/sh 
+ulimit -S -c 0
 
 case="F20TR_ne30pg2_EC30to60E2r2_EN01_compy "
 nens=80

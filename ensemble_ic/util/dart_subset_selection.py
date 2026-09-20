@@ -70,9 +70,27 @@ def files_by_member(paths: Iterable[Path]) -> dict[int, Path]:
 
 
 def discover_member_files(rest_dir: Path, date_tag: str) -> pd.DataFrame:
-    """Discover paired EAM and ELM files for members present in both components."""
-    eam_map = files_by_member(sorted(rest_dir.glob(f"*.eam.i.{date_tag}.nc")))
-    elm_map = files_by_member(sorted(rest_dir.glob(f"*.elm.r.{date_tag}.nc")))
+    """Discover paired EAM and ELM files in shared or per-member archives."""
+    eam_paths = sorted(rest_dir.glob(f"*.eam.i.{date_tag}.nc"))
+    elm_paths = sorted(rest_dir.glob(f"*.elm.r.{date_tag}.nc"))
+
+    # Newer Perlmutter archives place each member under
+    # ``ENxx/archive/rest/<date_tag>`` instead of using one shared directory.
+    if not eam_paths and not elm_paths:
+        member_rest_pattern = f"EN*/archive/rest/{date_tag}"
+        eam_paths = sorted(
+            path
+            for member_rest_dir in rest_dir.glob(member_rest_pattern)
+            for path in member_rest_dir.glob(f"*.eam.i.{date_tag}.nc")
+        )
+        elm_paths = sorted(
+            path
+            for member_rest_dir in rest_dir.glob(member_rest_pattern)
+            for path in member_rest_dir.glob(f"*.elm.r.{date_tag}.nc")
+        )
+
+    eam_map = files_by_member(eam_paths)
+    elm_map = files_by_member(elm_paths)
     common_members = sorted(set(eam_map) & set(elm_map))
     return pd.DataFrame(
         {

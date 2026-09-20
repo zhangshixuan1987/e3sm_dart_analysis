@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 DEFAULT_DATA_ROOT = Path(os.environ.get("E3SM_DART_INITIAL_LAND_DATA_ROOT", "/compyfs/zhan391/v3_dart_cda_scratch"))
-DEFAULT_OBS_ROOT = Path(os.environ.get("E3SM_DART_OBS_ROOT", "/compyfs/zhan391/acme_init/Observations"))
+DEFAULT_OBS_ROOT = Path(os.environ.get("E3SM_DART_OBS_ROOT", "/compyfs/zhan391/v3_dart_cda_scratch/reference"))
 DEFAULT_FIGURE_DIR = Path(os.environ.get("E3SM_DART_FIGURE_DIR", "/compyfs/www/zhan391/e3sm_dart/diag_out/figure/initial_land"))
 DEFAULT_DIAG_DIR = Path(os.environ.get("E3SM_DART_INITIAL_LAND_OUTPUT_DIR", "/compyfs/www/zhan391/e3sm_dart/diag_out/data/initial_land"))
 DEFAULT_REGRID_MAP_DIR = Path(os.environ.get("E3SM_DART_REGRID_MAP_DIR", "/compyfs/zhan391/v3_dart_cda_scratch/reference/regrid_maps"))

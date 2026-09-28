@@ -195,7 +195,7 @@ def build_obs_diag_config(
     data_root = Path(data_path or os.environ.get("E3SM_DART_DATA_PATH", "/compyfs/zhan391/v3_dart_cda_scratch"))
     if path_template is None:
         path_template = str(
-            data_root / "%(RUNNAME)" / "archive" / "%(CASENAME)" / "dart_diagnostics" / "%(DIAG)"
+            data_root / "%(RUNNAME)" / "%(CASENAME)" / "%(COMP)" / "dart_diagnostics" / "%(DIAG)"
         )
 
     specs = merge_experiments(_require_experiments(experiments), experiment_overrides)

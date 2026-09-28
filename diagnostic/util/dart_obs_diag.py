@@ -178,8 +178,9 @@ class DartObsDiagReader:
         run_name = exp_info.get("run", exp_info.get("run_id", exp))
         case_name = exp_info.get("key", exp_info.get("group", exp_info.get("group_key", "")))
 
+        path_template = exp_info.get("path_template", self.config["path_template"])
         path = (
-            self.config["path_template"]
+            path_template
             .replace("%(RUNNAME)", run_name)
             .replace("%(CASENAME)", case_name)
             .replace("%(DIAG)", diag_name)

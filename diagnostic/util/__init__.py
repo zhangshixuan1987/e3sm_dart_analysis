@@ -1,1 +1,1 @@
-"""Utility modules for land-atmosphere interaction diagnostics."""
+"""Reusable data access, diagnostics, caching, and plotting utilities."""

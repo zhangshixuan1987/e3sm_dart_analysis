@@ -1,4 +1,8 @@
+from pathlib import Path
+
 # experiment_configs.py
+
+DEFAULT_DATA_ROOT = Path("/compyfs/zhan391/v3_dart_cda_scratch")
 
 exp_dict1 = {
     'CTRLEN10': {
@@ -47,10 +51,19 @@ EXPERIMENT_GROUPS = {
 }
 
 
-def get_experiment_dict(key):
+def get_experiment_dict(key, *, data_root=DEFAULT_DATA_ROOT):
     try:
-        return EXPERIMENT_GROUPS[key]
+        experiments = EXPERIMENT_GROUPS[key]
     except KeyError as exc:
         available = ", ".join(sorted(EXPERIMENT_GROUPS))
         raise ValueError(f"Unknown experiment key: {key}. Available: {available}") from exc
+
+    data_root = Path(data_root)
+    rebased = {}
+    for name, spec in experiments.items():
+        item = dict(spec)
+        source_path = Path(item["path"])
+        item["path"] = str(data_root / source_path.relative_to(DEFAULT_DATA_ROOT))
+        rebased[name] = item
+    return rebased
 

@@ -1,2 +1,0 @@
-Satellite    = (/"GPSRO", "SAT", "AIRS"/)
-NCEP_PREBUFR = (/"AIRCRAFT", "ACARS","RADIOSONDE","MARINE"/)

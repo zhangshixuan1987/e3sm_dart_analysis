@@ -5,11 +5,13 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
+from configs.output_paths import OUTPUT_DATA_ROOT, OUTPUT_FIGURE_ROOT
+
 
 DEFAULT_DATA_ROOT = Path(os.environ.get("E3SM_DART_INITIAL_LAND_DATA_ROOT", "/compyfs/zhan391/v3_dart_cda_scratch"))
 DEFAULT_OBS_ROOT = Path(os.environ.get("E3SM_DART_OBS_ROOT", "/compyfs/zhan391/v3_dart_cda_scratch/reference"))
-DEFAULT_FIGURE_DIR = Path(os.environ.get("E3SM_DART_FIGURE_DIR", "/compyfs/www/zhan391/e3sm_dart/diag_out/figure/initial_land"))
-DEFAULT_DIAG_DIR = Path(os.environ.get("E3SM_DART_INITIAL_LAND_OUTPUT_DIR", "/compyfs/www/zhan391/e3sm_dart/diag_out/data/initial_land"))
+DEFAULT_FIGURE_DIR = OUTPUT_FIGURE_ROOT / "analysis_lnd_init"
+DEFAULT_DIAG_DIR = OUTPUT_DATA_ROOT / "analysis_lnd_init"
 DEFAULT_REGRID_MAP_DIR = Path(os.environ.get("E3SM_DART_REGRID_MAP_DIR", "/compyfs/zhan391/v3_dart_cda_scratch/reference/regrid_maps"))
 DEFAULT_LAND_REFERENCE_DIR = Path(os.environ.get("E3SM_DART_LAND_REFERENCE_DIR", "/compyfs/zhan391/v3_dart_cda_scratch/reference/lnd_sea_mask"))
 DEFAULT_LANDMASK_FILE = DEFAULT_LAND_REFERENCE_DIR / "landmask_1x1.nc"
@@ -77,13 +79,14 @@ DEFAULT_SOIL_MOISTURE_PLOT = {
     "fontz": 9,
 }
 
+RESTART_OUTPUT_DIR = DEFAULT_DIAG_DIR / "restart"
+
 DEFAULT_RESTART_REGRID = {
-    "out_agg": "agg_gridcell.nc",
-    "grid_dir": DEFAULT_REGRID_MAP_DIR,
+    "out_agg": RESTART_OUTPUT_DIR / "agg_gridcell.nc",
     "dst_scrip": DEFAULT_REGRID_MAP_DIR / "cmip6_180x360_scrip.20181001.nc",
-    "src_scrip": DEFAULT_REGRID_MAP_DIR / "src_unstruct_from_agg.scrip.nc",
-    "map_file": DEFAULT_REGRID_MAP_DIR / "map_unstruct_r05_to_cmip6_180x360_aave.c251029.nc",
-    "regrid_out": "elm_180x360_aave.nc",
+    "src_scrip": RESTART_OUTPUT_DIR / "src_unstruct_from_agg.scrip.nc",
+    "map_file": RESTART_OUTPUT_DIR / "map_unstruct_r05_to_cmip6_180x360_aave.c251029.nc",
+    "regrid_out": RESTART_OUTPUT_DIR / "elm_180x360_aave.nc",
 }
 
 
@@ -95,11 +98,25 @@ def stringify_paths(mapping):
     }
 
 
-def get_soil_moisture_data_dict(*, include_observations=True, include_models=True):
-    """Return the default data dictionary used by initial-land soil moisture plots."""
+def get_soil_moisture_data_dict(
+    *,
+    data_root=DEFAULT_DATA_ROOT,
+    obs_root=DEFAULT_OBS_ROOT,
+    include_observations=True,
+    include_models=True,
+):
+    """Return data definitions rebased beneath notebook-configured input roots."""
+    data_root = Path(data_root)
+    obs_root = Path(obs_root)
     data = {}
     if include_observations:
-        data.update(DEFAULT_OBSERVATIONS)
+        for key, spec in DEFAULT_OBSERVATIONS.items():
+            item = dict(spec)
+            item["path"] = obs_root / Path(spec["path"]).relative_to(DEFAULT_OBS_ROOT)
+            data[key] = item
     if include_models:
-        data.update(DEFAULT_MODEL_EXPERIMENTS)
+        for key, spec in DEFAULT_MODEL_EXPERIMENTS.items():
+            item = dict(spec)
+            item["path"] = data_root / Path(spec["path"]).relative_to(DEFAULT_DATA_ROOT)
+            data[key] = item
     return stringify_paths(data)
